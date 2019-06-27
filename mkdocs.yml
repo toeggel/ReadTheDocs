@@ -3,14 +3,8 @@ nav:
 - Home: 'index.md'
 - C#: 
   - 'dotNet/constStaticReadonly.md'
-  - 'Expressions vs. Statements': 'dotNet/expressionsVsStatements.md'
-- User Guide:
-    - 'Writing your docs': 'writing-your-docs.md'
-    - 'User Guide2':
-        - 'Writing your docs2': 'writing-your-docs.md'
-    - 'Styling your docs': 'styling-your-docs.md'
-- About:
-    - 'License': 'license.md'
-    - 'Release Notes': 'release-notes.md'
-theme: readthedocs
-# theme: material
+  - 'Functional Approach': 'dotNet/functionalApproach.md'
+- About: 'about.md'
+theme: 
+    # name: readthedocs
+    name: mkdocs
