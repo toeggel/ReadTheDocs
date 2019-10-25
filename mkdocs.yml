@@ -4,7 +4,10 @@ nav:
 - C#: 
   - 'dotNet/constStaticReadonly.md'
   - 'Functional Approach': 'dotNet/functionalApproach.md'
+- Frontend:
+  - 'Css': 'frontend/css.md'
+  - 'Angular': 'frontend/angularRxjsNgrxBestPractices.md'
 - About: 'about.md'
 theme: 
-    # name: readthedocs
-    name: mkdocs
+    name: readthedocs
+    # name: mkdKocs
