@@ -6,7 +6,7 @@ nav:
   - 'Functional Approach': 'dotNet/functionalApproach.md'
 - Frontend:
   - 'Css': 'frontend/css.md'
-  - 'Angular': 'frontend/angularRxjsNgrxBestPractices.md'
+  - 'JS': 'frontend/index.md'
 - About: 'about.md'
 theme: 
     name: readthedocs
