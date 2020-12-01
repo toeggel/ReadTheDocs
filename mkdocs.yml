@@ -9,7 +9,7 @@ nav:
   - 'JS': 'frontend/index.md'
   - 'Snippets': 'frontend/snippets.md'
 - Misc:
-  - 'Best Practices': 'misc/bestPractices.md'
+  - 'Writing Beatiful Code': 'misc/beautifulCode.md'
   - 'GitHub': 'misc/github.md'
   - 'Pitch': 'misc/pitch.md'
 - About: 'about.md'
