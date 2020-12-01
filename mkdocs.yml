@@ -7,6 +7,11 @@ nav:
 - Frontend:
   - 'Css': 'frontend/css.md'
   - 'JS': 'frontend/index.md'
+  - 'Snippets': 'frontend/snippets.md'
+- Misc:
+  - 'Best Practices': 'misc/bestPractices.md'
+  - 'GitHub': 'misc/github.md'
+  - 'Pitch': 'misc/pitch.md'
 - About: 'about.md'
 theme: 
     name: readthedocs
