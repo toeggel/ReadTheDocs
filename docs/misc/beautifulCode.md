@@ -17,6 +17,7 @@ How easy it is to navigate through the code? Is it easy to spot where the API fu
 ### Make the Simplest Thing that could possibly work.
 1. Implement a new feature in the simplest way you can think of that "could possibly work". Make the code pass the Unit Tests.
 2. Refactor the system to be the simplest possible code including all the features it now has.
+
 ### YAGNI
 > Always implement things when you actually need them, never when you just foresee that you need them.
 
@@ -37,4 +38,4 @@ as for you, you'll get to learn more about your code and your users
 
 ## Comments
 Usually we write comments when the intent of the code is not clear. Instead of writing comments we should ask ourselves => `Can I write the code better?`
-> Comments are often a lies.
+> Comments are often lies.

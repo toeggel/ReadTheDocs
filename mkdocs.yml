@@ -1,6 +1,11 @@
 site_name: My Docs
 nav:
 - Home: 'index.md'
+- Architecture:
+  - 'architecture/architecture.md'
+  - 'architecture/database.md'
+- Azure: 
+  - 'azure/azure.md'
 - C#: 
   - 'dotNet/constStaticReadonly.md'
   - 'Functional Approach': 'dotNet/functionalApproach.md'
