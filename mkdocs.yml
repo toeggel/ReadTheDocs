@@ -1,6 +1,4 @@
 site_name: 'A collection of best practices and stuff'
-docs_dir: 'src'
-site_dir: 'docs'
 site_url: 'https://toeggel.github.com/ReadTheDocs'
 nav:
 - Home: 'index.md'
