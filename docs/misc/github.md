@@ -1,6 +1,7 @@
 # Github
 ## Action
 __Example > Build and Deploy Gatsby page to gh-pages__
+
 1. Generate a token on Github (select repo): https://github.com/settings/tokens
 2. Copy token and insert as new Secret in the repository where you like to use it.
 3. Create action  (se example)

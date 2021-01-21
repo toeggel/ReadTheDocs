@@ -9,7 +9,7 @@
 ## Simplicity
 > Simplicity is the best way to meassure code quality  
 
-__Code Traversal__:  
+### Code Traversal:  
 > When the code traversal is easy, the code is simple to follow.
 
 How easy it is to navigate through the code? Is it easy to spot where the API functions are written? Is it easy to understand call flows, for example which methods are calling others (and why)- are there good state machines implemented or cleanly identified algorithms?

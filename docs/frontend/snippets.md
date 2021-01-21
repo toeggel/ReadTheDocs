@@ -108,6 +108,18 @@ function inputIsTruthy<T>(input: null | undefined | T): boolean {
 </details>
 
 <details>
+  <summary>rxjs - firstTruthy - operator</summary>
+
+```typescript
+function firstTruthy<T>(): MonoTypeOperatorFunction<T> { 
+  return input$ => input$.pipe(first(Boolean));
+}
+
+```
+
+</details>
+
+<details>
   <summary>rxjs - isNotNullNorUndefined - operator</summary>
 
 ```typescript

@@ -1,8 +1,11 @@
-site_name: My Docs
+site_name: 'A collection of best practices and stuff'
+docs_dir: src
+site_dir: 'docs'
 nav:
 - Home: 'index.md'
 - Architecture:
   - 'architecture/architecture.md'
+  - 'architecture/microservices.md'
   - 'architecture/database.md'
 - Azure: 
   - 'azure/azure.md'
@@ -16,8 +19,11 @@ nav:
 - Misc:
   - 'Writing Beatiful Code': 'misc/beautifulCode.md'
   - 'GitHub': 'misc/github.md'
+  - 'REST': 'misc/rest.md'
   - 'Pitch': 'misc/pitch.md'
 - About: 'about.md'
 theme: 
-    name: readthedocs
-    # name: mkdKocs
+    name: material
+    # name: readthedocs
+    # name: mkdocs
+  
