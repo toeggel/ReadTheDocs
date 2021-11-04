@@ -12,8 +12,16 @@ nav:
   - 'dotNet/constStaticReadonly.md'
   - 'Functional Approach': 'dotNet/functionalApproach.md'
 - Frontend:
+  - 'frontend/best-practices.md'
   - 'Css': 'frontend/css.md'
-  - 'JS': 'frontend/index.md'
+  - 'JS': 
+    - 'Rxjs': 'frontend/js/rxjs.md'
+    - 'NgRx': 'frontend/js/ngrx.md'
+    - 'Firebase': 'frontend/js/firebase.md'
+  - 'Angular': 
+    - 'frontend/angular/structoring-components.md'
+    - 'frontend/angular/data-load.md'
+    - 'frontend/angular/misc.md'
   - 'Snippets': 'frontend/snippets.md'
 - Misc:
   - 'Writing Beatiful Code': 'misc/beautifulCode.md'

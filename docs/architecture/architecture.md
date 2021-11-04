@@ -1,4 +1,4 @@
-# Archtecture
+# Architecture
 > Eine Architektur braucht eine Vision (und ist auf das Business fokussiert).
 
 Know __whether__ to use a tool or technology (and only partially how)
