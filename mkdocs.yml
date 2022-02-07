@@ -4,8 +4,12 @@ nav:
 - Home: 'index.md'
 - Architecture:
   - 'architecture/architecture.md'
-  - 'architecture/microservices.md'
   - 'architecture/database.md'
+  - 'architecture/lightweight.md'
+  - 'architecture/microservices.md'
+  - 'architecture/onion.md'
+  - 'architecture/softwareArchitect.md'
+  - 'architecture/uow.md'
 - Azure: 
   - 'azure/azure.md'
 - C#: 

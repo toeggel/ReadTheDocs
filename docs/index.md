@@ -15,3 +15,24 @@ For full documentation visit [mkdocs.org](https://mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## How to
+
+> Some statement
+
+---
+> **💡 Tip:** asdasdasd asdasdasdasd asd ds asd asd ads ads ads das asd adsd asd asad sdas a asd das das 
+> asd
+---
+
+
+---
+> **ℹ Note:** asdasdasd asdasdasdasd asd ds asd asd ads ads ads das asd adsd asd asad sdas a asd das das 
+> asd
+---
+
+some <mark>marked</mark> text
+
+- [x] Write the press release
+- [ ] Update the website
+

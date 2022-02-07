@@ -1,15 +1,10 @@
-# Writing Beatiful Code
-<Tip>
-    
-    The ratio between reading code and writing code is roughly 10:1! 
-</Tip>
-
----
+# Writing Beautiful Code
+> The ratio between reading code and writing code is roughly 10:1!    
 
 ## Simplicity
-> Simplicity is the best way to meassure code quality  
+> Simplicity is the best way to measure code quality  
 
-### Code Traversal:  
+### Code Traversal  
 > When the code traversal is easy, the code is simple to follow.
 
 How easy it is to navigate through the code? Is it easy to spot where the API functions are written? Is it easy to understand call flows, for example which methods are calling others (and why)- are there good state machines implemented or cleanly identified algorithms?

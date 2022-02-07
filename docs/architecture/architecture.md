@@ -9,16 +9,16 @@ Know __whether__ to use a tool or technology (and only partially how)
 
 # Emergent Architecture
 Emergent Architecture basiert auf einem stabilen __Kern__
-> Viele Architekturentscheide können __aufgeschoben__, ​
-und __lokal__ anstatt __zentral__ getätigt warden.​
 
-Gewisse Entscheide müssen früh getroffen werden:​
+> ℹ Viele Architekturentscheide können __aufgeschoben__, und __lokal__ anstatt __zentral__ getätigt werden.
 
-* Wie soll das System aussehen (__Übersicht__, __Vision__)​
-* Wo sind die Hauptabstraktionen​
-* Wie soll das Projektteam/System strukturiert sein (Conway’s Law)​
+Gewisse Entscheide müssen früh getroffen werden:
 
-Der __Kern__ der Emergenten Architektur soll so __stabil__ wie möglich sein. Er wird abgeleitet aus der __Art des Geschäfts__.​
+* Wie soll das System aussehen (__Übersicht__, __Vision__)
+* Wo sind die Hauptabstraktionen
+* Wie soll das Projektteam/System strukturiert sein (Conway’s Law)
+
+Der __Kern__ der Emergenten Architektur soll so __stabil__ wie möglich sein. Er wird abgeleitet aus der __Art des Geschäfts__.
 
 Der __Kern__ hat meist __hohe Kosten für Änderung__ oder ihn rückgängig zu machen.
 
