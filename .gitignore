@@ -21,3 +21,6 @@ site/
 # PowerPoint
 #~$*.ppt*
 ~$*
+
+# Obsidian
+/.obsidian
