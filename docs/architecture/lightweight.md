@@ -26,6 +26,7 @@ The system is structured around features and built along vertical slices, encaps
 The API is designed around individual endpoint classes. Each one has a single purpose and endpoint.
 
 These __core principles__ outline the design:
+
 * The code for each feature (vertical slice) lies within its own namespace (or feature folder).
 * An endpoint has a single purpose.
 * A controller has a single endpoint (controller can be grouped with the TagsAttribute).
