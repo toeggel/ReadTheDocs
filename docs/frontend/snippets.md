@@ -207,73 +207,51 @@ export class NgLetModule {}
   <summary>Angular - Tooltip - Directive</summary>
 
 ```typescript
-import { Directive, ElementRef, HostListener, Input, Renderer2 } from '@angular/core';
+import { Directive, ElementRef, Input, OnDestroy, OnInit } from '@angular/core';
+import { MatTooltip } from '@angular/material/tooltip';
 
 @Directive({
-  selector: '[tooltipIfEllipsisActive]'
+  selector: '[showTooltipIfTruncated]'
 })
-export class TooltipDirective {
-  @Input() target: any;
-  @Input() offset = 15;
-  tooltip: HTMLElement;
+export class ShowTooltipIfTruncatedDirective implements OnInit, OnDestroy {
+
+  @Input() rmShowTooltipIfTruncated: 'useInnerText' | '' = '';
+
+  private observer: ResizeObserver | null = null;
 
   constructor(
-    private renderer: Renderer2,
-    private hostElement: ElementRef) { }
-
-  @HostListener('mouseenter')
-  onMouseEnter(): void {
-    if (!this.tooltip && this.isEllipsisActive()) {
-      const text = this.target.value ?? this.target.innerText;
-      this.tooltip = this.createTooltip(text);
-      this.positionTooltip(this.target, this.tooltip, this.offset);
-    }
+    private matTooltip: MatTooltip,
+    private elementRef: ElementRef<HTMLElement>,
+  ) {
   }
 
-  @HostListener('mouseleave')
-  onMouseLeave(): void {
-    if (this.tooltip) {
-      this.renderer.removeChild(this.hostElement, this.tooltip);
-      this.tooltip = undefined;
-    }
+  public ngOnInit(): void {
+    const element = this.elementRef.nativeElement;
+
+
+    setTimeout(() => {
+      if (this.rmShowTooltipIfTruncated === 'useInnerText') {
+        this.matTooltip.message = element.innerText;
+      }
+
+      this.observer = new ResizeObserver(() => {
+        this.matTooltip.disabled = element.scrollWidth <= element.clientWidth;
+      });
+
+      this.observer.observe(element);
+    });
   }
 
-  private isEllipsisActive(): boolean {
-    return this.target?.offsetWidth < this.target?.scrollWidth;
-  }
-
-  private createTooltip(text: string): HTMLElement {
-    const tooltip = this.renderer.createElement('span');
-    const content = this.renderer.createText(text);
-    this.renderer.addClass(tooltip, 'mat-tooltip');
-    this.renderer.setStyle(tooltip, 'color', 'white');
-    this.renderer.setStyle(tooltip, 'position', 'fixed');
-    this.renderer.setStyle(tooltip, 'text-overflow', 'unset');
-    this.renderer.setStyle(tooltip, 'max-width', 'unset');
-    this.renderer.setStyle(tooltip, 'margin', '0');
-    this.renderer.setStyle(tooltip, 'padding', '6px 8px');
-    this.renderer.setStyle(tooltip, 'border-radius', '4px');
-    this.renderer.setStyle(tooltip, 'top', `0px`);
-    this.renderer.setStyle(tooltip, 'left', `0px`);
-    this.renderer.appendChild(this.hostElement.nativeElement, tooltip);
-    this.renderer.appendChild(tooltip, content);
-    return tooltip;
-  }
-
-  private positionTooltip(target: Element, tooltip: Element, offset: number): void {
-    const targetPos = target.getBoundingClientRect();
-    const tooltipPos = tooltip.getBoundingClientRect();
-
-    const top = targetPos.top - tooltipPos.height - offset;
-    const left = targetPos.left + (targetPos.width - tooltipPos.width) / 2;
-
-    this.renderer.setStyle(tooltip, 'top', `${top}px`);
-    this.renderer.setStyle(tooltip, 'left', `${left}px`);
+  ngOnDestroy() {
+    this.observer?.unobserve(this.elementRef.nativeElement);
   }
 }
 
-<mat-form-field tooltipIfEllipsisActive [target]="input">
-<input #input>
+```
+
+```html
+
+<div class="ellipsis" matTooltip="" showTooltipIfTruncated="useInnerText" [target]="input">my inner text as tooltip</div>
 
 ```
 

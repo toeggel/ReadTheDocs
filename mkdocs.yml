@@ -8,6 +8,8 @@ nav:
   - 'architecture/lightweight.md'
   - 'architecture/microservices.md'
   - 'architecture/onion.md'
+  - 'architecture/saga.md'
+  - 'architecture/serviceBus.md'
   - 'architecture/softwareArchitect.md'
   - 'architecture/uow.md'
 - Azure: 
@@ -20,6 +22,7 @@ nav:
 - Frontend:
   - 'frontend/best-practices.md'
   - 'Css': 'frontend/css.md'
+  - 'HTML5': 'frontend/html5.md'
   - 'JS': 
     - 'Rxjs': 'frontend/js/rxjs.md'
     - 'NgRx': 'frontend/js/ngrx.md'
@@ -29,6 +32,7 @@ nav:
     - 'frontend/angular/data-load.md'
     - 'frontend/angular/misc.md'
   - 'Snippets': 'frontend/snippets.md'
+  - 'Misc': 'frontend/misc.md'
 - Misc:
   - 'Writing Beatiful Code': 'misc/beautifulCode.md'
   - 'GitHub': 'misc/github.md'
