@@ -43,10 +43,10 @@ filteredusers$ = this.users$.pipe(switchMap(users => this.fooService.filterUsers
 ## Performance issues in Angular
 Debugging Performance Problems in Angular:
 
-1.	Add debug() to html template
-a.	Log something like ‘..rendering..’
-2.	If too many renderings happen (some might happen) => Add Breakpoint
-3.	Go down the StackTrace and look for “OnInvokeTask” => Add Breakpoint
-4.	Take a look at the “task”-Property it might contain some infos about the function which lead to the re-rendering (e.g.: see callbackFun)
-5.	???
-6.	Profit
+1. Add debug() to html template
+	a.	Log something like ‘..rendering..’
+2. If too many renderings happen (some might happen) => Add Breakpoint
+3. Go down the StackTrace and look for “OnInvokeTask” => Add Breakpoint
+4. Take a look at the “task”-Property it might contain some infos about the function which lead to the re-rendering (e.g.: see callbackFun)
+5. ???
+6. Profit

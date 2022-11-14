@@ -7,13 +7,16 @@ nav:
   - 'architecture/database.md'
   - 'architecture/lightweight.md'
   - 'architecture/microservices.md'
+  - 'architecture/misc.md'
   - 'architecture/onion.md'
   - 'architecture/saga.md'
-  - 'architecture/serviceBus.md'
-  - 'architecture/softwareArchitect.md'
+  - 'architecture/service-bus.md'
+  - 'architecture/software-architect.md'
   - 'architecture/uow.md'
+  - 'architecture/vertical-slice.md'
 - Azure: 
   - 'azure/azure.md'
+  - 'azure/app-insights.md'
 - C#: 
   - 'dotNet/constStaticReadonly.md'
   - 'Functional Approach': 'dotNet/functionalApproach.md'
@@ -29,6 +32,7 @@ nav:
     - 'Firebase': 'frontend/js/firebase.md'
   - 'Angular': 
     - 'frontend/angular/structoring-components.md'
+    - 'frontend/angular/angular-elements.md'
     - 'frontend/angular/data-load.md'
     - 'frontend/angular/misc.md'
   - 'Snippets': 'frontend/snippets.md'

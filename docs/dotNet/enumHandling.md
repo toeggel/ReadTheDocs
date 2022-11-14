@@ -31,7 +31,6 @@ public class WorkGroupDto
 // Controller Action
 // Create a Dto by using reflection which works on the Attribute
 WorkGroupHelper.ToDto();
-
 ```
 
  ## Enum Class
@@ -63,8 +62,7 @@ public class CardType : Enumeration
     public CardType(int id, string name) : base(id, name) { }
 }
 ```
-See: https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/enumeration-classes-over-enum-types
-
+See: [Microsoft: enum class over enum type](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/enumeration-classes-over-enum-types)
 
 ---
 

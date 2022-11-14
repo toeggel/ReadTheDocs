@@ -11,7 +11,7 @@ The lightweight API is an approach to building APIs without complex architectura
     * Less layers, less classes, simpler dependency injection.
 * ❌ Solution might struggle with cross-cutting concerns and complex business logic / requirements.
 
-## Feature driven (vertical slice)
+## Feature driven ([vertical slice](vertical-slice.md))
 The system is structured around features and built along vertical slices, encapsulating and grouping all concerns together (request handling, business logic, DB access, ...). Each slice is isolated from each other slice. Some shared services might exist to handle more complex logic which can be reused among multiple slices.
 
 * ✅ Very high cohesion and low coupling.
@@ -53,6 +53,7 @@ If we can expect that most requirements will be rather simple and mostly CRUD-li
 By following this simpler approach from the start, we ensure that the code is only as complex as it needs to be.
 
 Open Points
+
 * ❌ Uncertain on how it performs for more complex cases / business logic.
 * ❓ Can we still bring in a good structure and guidelines to have uniformed code?
 * ❓ What do we do with complex business logic?
@@ -60,18 +61,14 @@ Open Points
 
 
 ### Is SOLID
-1. Single-Responsibility Principle
-* Each class has a single responsibility (because of verticle slice).
-
-2. Open-Closed Principle
-* It is open for extensions (create new classes).
-* Adding a new slice does not need modification of existing code => It is closed for modifications.
-
-3. Liskov Substitution Principle
-The subclasses should be substitutable for the base classes.
-
-4. Interface Segregation Principle
-All user interfaces should be separate from each other. Also, it is a good practice to have many intent-driven interfaces over one general-purpose interface.
-
-5. Dependency Inversion Principle
-The modules should depend on the interfaces or the abstract classes and not the concrete classes and functions.
+1. **S**ingle-Responsibility Principle
+	* Each class has a single responsibility (because of verticle slice).
+2. **O**pen-Closed Principle
+	* It is open for extensions (create new classes).
+	* Adding a new slice does not need modification of existing code => It is closed for modifications.
+3. **L**iskov Substitution Principle
+	* The subclasses should be substitutable for the base classes.
+4. **I**nterface Segregation Principle
+	* All user interfaces should be separate from each other. Also, it is a good practice to have many intent-driven interfaces over one general-purpose interface.
+1. **D**ependency Inversion Principle
+	* The modules should depend on the interfaces or the abstract classes and not the concrete classes and functions.
