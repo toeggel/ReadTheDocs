@@ -33,6 +33,13 @@ export function guid() {
 ## rxjs
 
 <details>
+  <summary>rxjs - unsubscribe on destroy</summary>
+
+![unsubscribe on destroy](../assets/on-destroy.png "unsubscribe on destroy")
+
+</details>
+
+<details>
   <summary>rxjs - untilDestroy - operator</summary>
 
 ```typescript

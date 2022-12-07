@@ -4,6 +4,7 @@ nav:
 - Home: 'index.md'
 - Architecture:
   - 'architecture/architecture.md'
+  - 'architecture/c4.md'
   - 'architecture/database.md'
   - 'architecture/lightweight.md'
   - 'architecture/microservices.md'
@@ -12,6 +13,7 @@ nav:
   - 'architecture/saga.md'
   - 'architecture/service-bus.md'
   - 'architecture/software-architect.md'
+  - 'architecture/tools.md'
   - 'architecture/uow.md'
   - 'architecture/vertical-slice.md'
 - Azure: 
@@ -39,6 +41,8 @@ nav:
   - 'Misc': 'frontend/misc.md'
 - Misc:
   - 'Writing Beatiful Code': 'misc/beautifulCode.md'
+  - 'misc/clean-code.md'
+  - 'misc/power-point.md'
   - 'GitHub': 'misc/github.md'
   - 'REST': 'misc/rest.md'
   - 'Pitch': 'misc/pitch.md'

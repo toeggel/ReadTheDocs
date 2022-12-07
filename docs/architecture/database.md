@@ -21,3 +21,22 @@ Folgende Punkte sind entscheidende Themen bzw. Fragen zur Datenarchitektur:
 * Datenredundanz (Datenreplikation, Materialized Views)
 * Bulk Data Exchange
 * Datenkonsistenz (verteilte Transaktionen, SAGA)
+
+# Optimization
+
+- Using AND queries can use indexes where OR queries cannot. Therefore we can optimize queries like that (only do it if there is actually a performance issue)
+
+```csharp
+
+// this is performanterner
+var persons = await _context.Person
+.Where(p => p.Function == Function.Important && p.Status == Status.Active)
+.Union(_context.Person.Where(p => p.IsInternalUser && p.Status == Status.Active))
+.ToListAsync();
+
+// instead of
+var persons = await _context.Person
+.Where(p => p.Status == Status.Active && (p.Function == Function.Important || p.IsInternalUser))
+.ToListAsync();
+
+```
