@@ -66,4 +66,4 @@ See: [Microsoft: enum class over enum type](https://docs.microsoft.com/en-us/dot
 
 ---
 
-Tags: [.Net](dotNet.md), [Design](design.md)
+Tags: #dotNet #design 

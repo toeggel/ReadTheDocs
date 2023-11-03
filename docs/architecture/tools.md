@@ -1,9 +1,9 @@
 # Tools and framework
 
 A list of tools, frameworks and more where I had good experience with or I got recommendation from others.
+
 ##  Documentation as Code (DoC)
 
-Others recommendations
 - [PlantUML](https://plantuml.com/)
 - [mermaid](https://mermaid-js.github.io/)
 - [Structorizr](https://structurizr.com/)
@@ -23,7 +23,7 @@ Others recommendations
 
 ## Contract Testing (over multiple APIs)
 
-* [Pact](https://docs.pact.io/)
+- [Pact](https://docs.pact.io/)
 
 ## IdP
 
@@ -41,3 +41,6 @@ Others recommendations
 
 Others recommendations
 - [LaunchDarkly](https://launchdarkly.com/)
+- WireMock.Net
+- Bogus vs. AutoFixtures
+- Moq.AutoMocker

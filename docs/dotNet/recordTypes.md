@@ -12,4 +12,4 @@ public record MyDto(string FirstName, string LastName) : IMyBase;
 
 ---
 
-Tags: [.Net](dotNet.md), [Design](design.md)
+Tags: #dotNet #design 

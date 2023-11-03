@@ -1,7 +1,15 @@
 # Service Bus Messaging 
 
 ## Queue
- > **💡 Tip:** Use when there is a need to pass the message in the one-to-one system. 
+
+
+> [!INFO] Title
+> An information callout from Obsidian
+> inspired by the syntax from the Microsoft Docs
+
+---
+
+>[!tip] Use when there is a need to pass the message in the one-to-one system. 
 
 Messages in queues are ordered and timestamped on arrival.
 

@@ -6,7 +6,7 @@ We have 4 option to handle distributed exceptions.
 1. Ignore (e.g. Swallow execution)
 2. Retry
 3. Undo previous steps (could fail as well)
-4. Communicator (Two phase commit,, distributed transaction (usually doesn't work with web APIs))
+4. Communicator (Two phase commit, distributed transaction (usually doesn't work with web APIs))
 
 For each case and each possible failure (call to XY failed, message to service bus could not be published) we need to consider the 4 options and choose the best.
 
@@ -31,7 +31,7 @@ https://stackoverflow.com/questions/72284628/comparing-cdc-vs-outbox-pattern-for
 
 --- 
 
-See also [Saga](saga.md)
+See also [Saga](pattern#saga.md)
 * https://github.com/meysamhadeli/awesome-dotnet-tips
 * 
 

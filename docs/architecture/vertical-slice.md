@@ -1,4 +1,9 @@
+---
+tags:
+  - Architecture
+---
 # Vertical Slice Architecture
+
 Vertical slice architecture is based around the principle _"things that change together should be near each other"_. It applies the **_Single Responsibility Principle (SRP)_** and **_Open-Closed Principle (OCP)_** which leads to a very **high cohesion**.
 Code changes (add, remove, change) often have impact on one (main) slice and helps to guarantee that nothing else breaks.
 

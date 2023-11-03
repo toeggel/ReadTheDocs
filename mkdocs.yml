@@ -3,16 +3,15 @@ site_url: 'https://toeggel.github.com/ReadTheDocs/index.html'
 nav:
 - Home: 'index.md'
 - Architecture:
+  - 'architecture/architect.md'
   - 'architecture/architecture.md'
   - 'architecture/c4.md'
   - 'architecture/database.md'
   - 'architecture/lightweight.md'
-  - 'architecture/microservices.md'
   - 'architecture/misc.md'
   - 'architecture/onion.md'
-  - 'architecture/saga.md'
+  - 'architecture/patterns.md'
   - 'architecture/service-bus.md'
-  - 'architecture/software-architect.md'
   - 'architecture/tools.md'
   - 'architecture/uow.md'
   - 'architecture/vertical-slice.md'
@@ -25,30 +24,64 @@ nav:
   - 'Enum Handling': 'dotNet/enumHandling.md'
   - 'Record Types': 'dotNet/recordTypes.md'
 - Frontend:
-  - 'frontend/best-practices.md'
-  - 'Css': 'frontend/css.md'
-  - 'HTML5': 'frontend/html5.md'
-  - 'JS': 
-    - 'Rxjs': 'frontend/js/rxjs.md'
-    - 'NgRx': 'frontend/js/ngrx.md'
-    - 'Firebase': 'frontend/js/firebase.md'
   - 'Angular': 
-    - 'frontend/angular/structoring-components.md'
     - 'frontend/angular/angular-elements.md'
     - 'frontend/angular/data-load.md'
     - 'frontend/angular/misc.md'
-  - 'Snippets': 'frontend/snippets.md'
+    - 'frontend/angular/modules.md'
+    - 'frontend/angular/routed-component-input.md'
+    - 'frontend/angular/structoring-components.md'
+    - 'frontend/angular/take-until-destroyed.md'
+  - 'JS': 
+    - 'Firebase': 'frontend/js/firebase.md'
+    - 'frontend/js/ngrx-push.md'
+    - 'frontend/js/ngrx.md'
+    - 'Rxjs': 'frontend/js/rxjs.md'
+  - 'frontend/best-practices.md'
+  - 'Css': 'frontend/css.md'
+  - 'HTML5': 'frontend/html5.md'
   - 'Misc': 'frontend/misc.md'
+  - 'Snippets': 'frontend/snippets.md'
+  - 'frontend/typescript.md'
 - Misc:
-  - 'Writing Beatiful Code': 'misc/beautifulCode.md'
+  - 'Writing Beatiful Code': 'misc/beautiful-code.md'
   - 'misc/clean-code.md'
-  - 'misc/power-point.md'
+  - 'misc/dev-ops.md'
+  - 'git': 'misc/git.md'
   - 'GitHub': 'misc/github.md'
-  - 'REST': 'misc/rest.md'
+  - 'Giving Feedback': 'misc/giving-feedback.md'
+  - 'Misc': 'misc/misc.md'
+  - 'Obsidian': 'misc/obsidian.md'
   - 'Pitch': 'misc/pitch.md'
+  - 'misc/power-point.md'
+  - 'REST': 'misc/rest.md'
+  - 'Testing': 'misc/testing.md'
 - About: 'about.md'
 theme: 
-    name: material
-    # name: readthedocs
-    # name: mkdocs
+  name: material
+  # name: readthedocs
+  # name: mkdocs
+  palette:
+  # Palette toggle for light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  # Palette toggle for dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+  markdown_extensions:
+    - nl2br
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+
+  plugins:
+    - search
+    - callouts
+    
   

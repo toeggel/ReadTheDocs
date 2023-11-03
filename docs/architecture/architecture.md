@@ -1,11 +1,55 @@
+---
+tags:
+  - Architecture
+---
+
 # Architecture
+
+> Architecture is the art of choosing the right trade-offs
+
+> The life of a software architect is a long (and sometimes painful) succession of sub-optimal decisions made partly in the dark.
+
 > Eine Architektur braucht eine Vision (und ist auf das Business fokussiert).
+
+Sie richtet sich an Werten (von Stakeholdern) aus. Steht Time-to-market im Vordergrund, wird der Fokus auf eine gute Entwicklungsproduktivität gelegt.
 
 Know __whether__ to use a tool or technology (and only partially how)
 
 ## Goal
+
 * Technical decisions to deliver features efficient and effective - and close the feedback loop fast
 * Most simple (_and not most flexible_) solution for the problem to solve
+* Keep the cost of change low
+
+## What is architecture
+
+* Structure
+* Split into components
+* Interfaces
+* Dependencies 
+
+## Architecture Smoketest (based on documentation)
+
+* What are the principles or decisions of the solution? Why?
+* What are the responsibilities of each box and line in a diagram?
+* How does the Architecture fulfill the systems quality requirements?
+
+## Grundsätze, Prinzipien
+### Grundsätze (always true)
+
+* Success of the architecture is meassured by the stakeholders (not by the architect)
+* KISS
+* "There is no silver bullet". Always decide specifically
+* Make everything explizit (requirements, assumptions, non-functional requirements)
+* Expect changes. "Change is gooood"
+* Expect errors
+* Keep non-functional requirements (quality attributes) in the mind all the time
+
+### Prinzipien (etablierte Regeln)
+
+* loose coupling
+    * Reduce dependencies (everywhere not just code)
+* high cohesion
 
 # Emergent Architecture
 Emergent Architecture basiert auf einem stabilen __Kern__
@@ -29,13 +73,16 @@ Faktoren für die Frage __wann__ Architekturentscheide gemacht werden sollen.
 * werden zukünftige Perspektiven verhindert?
 * Ist schnelles Feedback verfügbar?
 
-# Patterns
-## Strangler (Fig) Pattern
-Incrementally migrate a legacy system by gradually replacing specific pieces of functionality with new applications and services. As features from the legacy system are replaced, the new system eventually replaces all of the old system's features, strangling the old system and allowing you to decommission it.
+# Quots
 
-> 💡 Use this pattern when gradually migrating a back-end application to a new architecture.
+Story of the Tortoise and the Hare
 
-## Anti-Corruption Layer
-Legacy systems often suffer from quality issues such as convoluted data schemas or obsolete APIs. A Facade helps to keep the interface of a new Application clean. 
+> Slow and steady wins the race.
+> The race is not to the swift, nor the battle to the strong.
+> The more haste, the less speed.
 
-> 💡 Use this pattern to ensure that an application's design is not limited by dependencies on outside subsystems.
+
+Regarding "Cleaning up later"
+
+> Making messes is always slower than staying clean
+> The only way to go fast, is to go well.

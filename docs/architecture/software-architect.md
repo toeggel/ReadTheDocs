@@ -1,2 +1,0 @@
-# Software Architect
-The role of software architects is to make high-level design choices and dictate technical standards. He needs to see the bigger picture.

@@ -40,3 +40,12 @@ union *
     ))
 | order by timestamp desc 
 ```
+
+```sql
+// Failed request grouped by HttpStatusCode displayed with columns per day
+requests
+| where success == false
+| summarize count() by resultCode, bin(timestamp, 1d) 
+| order by timestamp desc 
+| render columnchart  
+```  
