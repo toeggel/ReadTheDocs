@@ -19,11 +19,16 @@ On this page I test Obsidian features. Some might work, some wont. Above this ti
 ## Callout
 
 > [!info]
-> some callout
+> This callout will get converted to the mkdocs admonition format (see note below) by the mkdocs-callouts plugin
 
 
 > [!tip] Just Another Callout
 > Wow
+
+
+!!! note
+    Callouts (see above) will get converted to this format (mkdocs admonition) by the mkdocs-callouts plugin
+
 
 ## PlantUML
 

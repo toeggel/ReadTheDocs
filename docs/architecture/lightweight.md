@@ -2,7 +2,6 @@
 tags:
   - Architecture
 ---
-
 # Lightweight with vertical slices
 
 ## Lightweight API

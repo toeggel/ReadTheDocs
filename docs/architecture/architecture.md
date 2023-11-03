@@ -2,7 +2,6 @@
 tags:
   - Architecture
 ---
-
 # Architecture
 
 > Architecture is the art of choosing the right trade-offs
@@ -54,7 +53,7 @@ Know __whether__ to use a tool or technology (and only partially how)
 # Emergent Architecture
 Emergent Architecture basiert auf einem stabilen __Kern__
 
-> ℹ Viele Architekturentscheide können __aufgeschoben__, und __lokal__ anstatt __zentral__ getätigt werden.
+> [!info] Viele Architekturentscheide können __aufgeschoben__, und __lokal__ anstatt __zentral__ getätigt werden.
 
 Gewisse Entscheide müssen früh getroffen werden:
 
@@ -73,7 +72,7 @@ Faktoren für die Frage __wann__ Architekturentscheide gemacht werden sollen.
 * werden zukünftige Perspektiven verhindert?
 * Ist schnelles Feedback verfügbar?
 
-# Quots
+# Quotes
 
 Story of the Tortoise and the Hare
 

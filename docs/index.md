@@ -21,13 +21,15 @@ For full documentation visit [mkdocs.org](https://mkdocs.org).
 > Some statement
 
 ---
-> **💡 Tip:** asdasdasd asdasdasdasd asd ds asd asd ads ads ads das asd adsd asd asad sdas a asd das das 
+> [!tip] 
+> asdasdasd asdasdasdasd asd ds asd asd ads ads ads das asd adsd asd asad sdas a asd das das 
 > asd
 ---
 
 
 ---
-> **ℹ Note:** asdasdasd asdasdasdasd asd ds asd asd ads ads ads das asd adsd asd asad sdas a asd das das 
+> [!note]-
+> asdasdasd asdasdasdasd asd ds asd asd ads ads ads das asd adsd asd asad sdas a asd das das 
 > asd
 ---
 

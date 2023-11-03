@@ -1,3 +1,7 @@
+---
+tags:
+  - dotNet
+---
 # Enum Handling
 ## Enum grouping
 
@@ -63,7 +67,3 @@ public class CardType : Enumeration
 }
 ```
 See: [Microsoft: enum class over enum type](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/enumeration-classes-over-enum-types)
-
----
-
-Tags: #dotNet #design 

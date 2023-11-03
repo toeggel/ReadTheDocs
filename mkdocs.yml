@@ -8,9 +8,11 @@ nav:
   - 'architecture/c4.md'
   - 'architecture/database.md'
   - 'architecture/lightweight.md'
+  - 'architecture/microservice.md'
   - 'architecture/misc.md'
   - 'architecture/onion.md'
   - 'architecture/patterns.md'
+  - 'architecture/self-contained-systems.md'
   - 'architecture/service-bus.md'
   - 'architecture/tools.md'
   - 'architecture/uow.md'
@@ -19,14 +21,16 @@ nav:
   - 'azure/azure.md'
   - 'azure/app-insights.md'
 - C#: 
-  - 'dotNet/constStaticReadonly.md'
-  - 'Functional Approach': 'dotNet/functionalApproach.md'
-  - 'Enum Handling': 'dotNet/enumHandling.md'
-  - 'Record Types': 'dotNet/recordTypes.md'
+  - 'dot-net/const-static-readonly.md'
+  - 'dot-net/functional-approach.md'
+  - 'dot-net/enum-handling.md'
+  - 'dot-net/record-types.md'
 - Frontend:
-  - 'Angular': 
+  - 'Angular':
+    - 'frontend/angular/index.md'
     - 'frontend/angular/angular-elements.md'
     - 'frontend/angular/data-load.md'
+    - 'frontend/angular/error-handling.md'
     - 'frontend/angular/misc.md'
     - 'frontend/angular/modules.md'
     - 'frontend/angular/routed-component-input.md'
@@ -44,7 +48,7 @@ nav:
   - 'Snippets': 'frontend/snippets.md'
   - 'frontend/typescript.md'
 - Misc:
-  - 'Writing Beatiful Code': 'misc/beautiful-code.md'
+  - 'misc/beautiful-code.md'
   - 'misc/clean-code.md'
   - 'misc/dev-ops.md'
   - 'git': 'misc/git.md'
@@ -61,6 +65,9 @@ theme:
   name: material
   # name: readthedocs
   # name: mkdocs
+
+  features:
+    - navigation.indexes
   palette:
   # Palette toggle for light mode
   - media: "(prefers-color-scheme: light)"
@@ -74,14 +81,14 @@ theme:
     toggle:
       icon: material/brightness-4
       name: Switch to light mode
-  markdown_extensions:
-    - nl2br
-    - admonition
-    - pymdownx.details
-    - pymdownx.superfences
-
-  plugins:
-    - search
-    - callouts
+plugins:
+  - search 
+  - tags
+  - callouts
+markdown_extensions:
+  - nl2br
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
     
   

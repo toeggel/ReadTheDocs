@@ -8,12 +8,12 @@ tags:
 ## Strangler (Fig) Pattern
 Incrementally migrate a legacy system by gradually replacing specific pieces of functionality with new applications and services. As features from the legacy system are replaced, the new system eventually replaces all of the old system's features, strangling the old system and allowing you to decommission it.
 
-> 💡 Use this pattern when gradually migrating a back-end application to a new architecture.
+> [!info] Use this pattern when gradually migrating a back-end application to a new architecture.
 
 ## Anti-Corruption Layer
 Legacy systems often suffer from quality issues such as convoluted data schemas or obsolete APIs. A Facade helps to keep the interface of a new Application clean. 
 
-> 💡 Use this pattern to ensure that an application's design is not limited by dependencies on outside subsystems.
+> [!info] Use this pattern to ensure that an application's design is not limited by dependencies on outside subsystems.
 
 ## Design patterns for microservices
 ![microservices-patterns](../assets/microservices-patterns.png "Design patterns for microservices")
