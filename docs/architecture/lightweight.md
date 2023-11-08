@@ -2,9 +2,11 @@
 tags:
   - Architecture
 ---
+
 # Lightweight with vertical slices
 
 ## Lightweight API
+
 The lightweight API is an approach to building APIs without complex architectural patterns. The lightweight API contains just the essential components needed to build an HTTP API, and to provide CRUD operations. The approach is used for prototyping, rapid application development, or microservices. “Lightweight” frameworks such as Node JS, Java Spring Boot, or Python Flask improve development efficiency even further. ASP.NET Core 6 now provides language constructs to create lightweight APIs as well (Minimal Api).
 
 * ✅ Reduces boilerplate to a minimum.
@@ -16,6 +18,7 @@ The lightweight API is an approach to building APIs without complex architectura
 * ❌ Solution might struggle with cross-cutting concerns and complex business logic / requirements.
 
 ## Feature driven ([vertical slice](vertical-slice.md))
+
 The system is structured around features and built along vertical slices, encapsulating and grouping all concerns together (request handling, business logic, DB access, ...). Each slice is isolated from each other slice. Some shared services might exist to handle more complex logic which can be reused among multiple slices.
 
 * ✅ Very high cohesion and low coupling.
@@ -27,6 +30,7 @@ The system is structured around features and built along vertical slices, encaps
 * ❌ Code reuse is more difficult to handle (duplication means… duplications, sharing means coupling).
 
 ## Design
+
 The API is designed around individual endpoint classes. Each one has a single purpose and endpoint.
 
 These __core principles__ outline the design:
@@ -48,6 +52,7 @@ These __core principles__ outline the design:
  *Since we are reusing the same model throughout the solution, we use DTOs instead of returning entities.
 
 ## Reasoning
+
 Some drawbacks were identified for an onion architecture, particularly in the area of the architectures complexity in relation to fairly simplistic business requirements. A lot of “boilerplate” needs to be written just to satisfy the architectures need whereas the actual business logic often get lost in its depth.
 
 A layered architecture is considered as an easier alternative to the onion architecture but also to similar for an actual and relevant improvement of the drawback.
@@ -65,6 +70,7 @@ Open Points
 
 
 ### Is SOLID
+
 1. **S**ingle-Responsibility Principle
 	* Each class has a single responsibility (because of verticle slice).
 2. **O**pen-Closed Principle

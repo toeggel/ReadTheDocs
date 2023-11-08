@@ -27,7 +27,6 @@ Folgende Punkte sind entscheidende Themen bzw. Fragen zur Datenarchitektur:
 - Using AND queries can use indexes where OR queries cannot. Therefore we can optimize queries like that (only do it if there is actually a performance issue)
 
 ```csharp
-
 // this is performanterner
 var persons = await _context.Person
 .Where(p => p.Function == Function.Important && p.Status == Status.Active)

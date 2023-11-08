@@ -29,9 +29,8 @@ A service that uses a relational database inserts messages/events into an _outb
 
 https://stackoverflow.com/questions/72284628/comparing-cdc-vs-outbox-pattern-for-creating-event-streams
 
---- 
+---
 
-See also [Saga](pattern#saga.md)
+[Saga Pattern](patterns.md#Saga%20Pattern)
+
 * https://github.com/meysamhadeli/awesome-dotnet-tips
-* 
-

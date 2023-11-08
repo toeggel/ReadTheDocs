@@ -11,6 +11,6 @@ With MFE architecture, a large application is split into:
 1. A single **Host** application that references external...
 2. **Remote** applications, which handle a single domain or feature.
 
-# Related
+---
 
 [self-contained systems](self-contained-systems.md)

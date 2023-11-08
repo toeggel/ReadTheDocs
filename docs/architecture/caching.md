@@ -8,6 +8,7 @@ tags:
 # Caching
 
 Different kind of caching exists:
+
 * in-memory caching
 * distributed caching
 * content caching
@@ -17,14 +18,16 @@ Different kind of caching exists:
 
 A distributed cache is a cache shared by multiple app servers, typically maintained as an external service to the app servers that access it.
 
-> **Question:** How can I make sure that the external service is (accessed) fast?
+> [!question] How can I make sure that the external service is (accessed) fast?
 
 When cached data is distributed, the data:
+
 * Is coherent (consistent) across requests to multiple servers.
 * Survives server restarts and app deployments.
 * Doesn't use local memory.
 
 .NET Core provides these implementations:
+
 * Distributed Redis cache
 * Distributed Memory Cache
 * Distributed SQL Server cache

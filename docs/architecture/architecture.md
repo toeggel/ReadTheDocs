@@ -2,13 +2,12 @@
 tags:
   - Architecture
 ---
+
 # Architecture
 
-> Architecture is the art of choosing the right trade-offs
+> [!info] Architecture is the art of choosing the right trade-offs
 
-> The life of a software architect is a long (and sometimes painful) succession of sub-optimal decisions made partly in the dark.
-
-> Eine Architektur braucht eine Vision (und ist auf das Business fokussiert).
+> [!info] Eine Architektur braucht eine Vision (und ist auf das Business fokussiert).
 
 Sie richtet sich an Werten (von Stakeholdern) aus. Steht Time-to-market im Vordergrund, wird der Fokus auf eine gute Entwicklungsproduktivität gelegt.
 
@@ -51,6 +50,7 @@ Know __whether__ to use a tool or technology (and only partially how)
 * high cohesion
 
 # Emergent Architecture
+
 Emergent Architecture basiert auf einem stabilen __Kern__
 
 > [!info] Viele Architekturentscheide können __aufgeschoben__, und __lokal__ anstatt __zentral__ getätigt werden.
@@ -66,7 +66,9 @@ Der __Kern__ der Emergenten Architektur soll so __stabil__ wie möglich sein. Er
 Der __Kern__ hat meist __hohe Kosten für Änderung__ oder ihn rückgängig zu machen.
 
 ## Architekturentscheide
+
 Faktoren für die Frage __wann__ Architekturentscheide gemacht werden sollen.
+
 * was kostet eine verspätete Entscheidung?
 * was kostet es zum Rückgängig machen der Entscheidung?
 * werden zukünftige Perspektiven verhindert?

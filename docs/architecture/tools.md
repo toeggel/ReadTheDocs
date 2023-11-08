@@ -40,6 +40,7 @@ A list of tools, frameworks and more where I had good experience with or I got r
 - [Flagsmith](https://flagsmith.com/)
 
 Others recommendations
+
 - [LaunchDarkly](https://launchdarkly.com/)
 - WireMock.Net
 - Bogus vs. AutoFixtures
