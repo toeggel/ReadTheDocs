@@ -6,6 +6,7 @@ nav:
   - 'architecture/architect.md'
   - 'architecture/architecture.md'
   - 'architecture/c4.md'
+  - 'architecture/caching.md'
   - 'architecture/database.md'
   - 'architecture/lightweight.md'
   - 'architecture/microservice.md'
