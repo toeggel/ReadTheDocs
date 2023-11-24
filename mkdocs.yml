@@ -1,7 +1,7 @@
 site_name: 'A collection of best practices and stuff'
 site_url: 'https://toeggel.github.com/ReadTheDocs/index.html'
 nav:
-- Home: 'index.md'
+- About: 'index.md'
 - Architecture:
   - 'architecture/architect.md'
   - 'architecture/architecture.md'
@@ -64,7 +64,6 @@ nav:
   - 'REST': 'misc/rest.md'
   - 'Testing': 'misc/testing.md'
   - 'misc/validation.md'
-- About: 'index.md'
 theme: 
   name: material
   # name: readthedocs
