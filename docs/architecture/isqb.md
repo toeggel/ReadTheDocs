@@ -20,7 +20,8 @@ Ziele explizit machen und festhalten (dokumentieren)
 
 ## Rolle: Architekt
 
-* Ausserhalb vom Team (Elfenbein)
+* Ausserhalb vom Team (Elfenbein) -> aka. **AaaS** (Architect as as Service)
+	* usually bad because there is no feedback loop
 * Das ganze Team
 * Gewisse Personen im Team übernehmen gewiss Architektur Aufgaben
 * Verteilte Architektur. Architekten sind im Team

@@ -19,6 +19,8 @@ Know __whether__ to use a tool or technology (and only partially how)
 * Most simple (_and not most flexible_) solution for the problem to solve
 * Keep the cost of change low
 
+See: [Architekturziele](isqb.md#Architekturziele)
+
 ## What is architecture
 
 * Structure
