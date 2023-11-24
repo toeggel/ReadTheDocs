@@ -1,40 +1,6 @@
-# Welcome to MkDocs
+# About
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+A site to keep coding related content. It's a living collection of best practices and stuff which I gathered over the years. The content of this site may or may not be complete, correct or useful to you.
+The content is kept minimalistic on purpose.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-## How to
-
-> Some statement
-
----
-> [!TIP] 
-> asdasdasd asdasdasdasd asd ds asd asd ads ads ads das asd adsd asd asad sdas a asd das das 
-> asd
----
-
-
----
-> [!note]-
-> asdasdasd asdasdasdasd asd ds asd asd ads ads ads das asd adsd asd asad sdas a asd das das 
-> asd
----
-
-some <mark>marked</mark> text
-
-- [x] Write the press release
-- [ ] Update the website
-
+> Nice and Shiny

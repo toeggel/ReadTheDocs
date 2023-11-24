@@ -64,7 +64,7 @@ nav:
   - 'REST': 'misc/rest.md'
   - 'Testing': 'misc/testing.md'
   - 'misc/validation.md'
-- About: 'about.md'
+- About: 'index.md'
 theme: 
   name: material
   # name: readthedocs
