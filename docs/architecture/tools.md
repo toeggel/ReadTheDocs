@@ -1,4 +1,4 @@
-# Tools and framework
+# Tools
 
 A list of tools, frameworks and more where I had good experience with or I got recommendation from others.
 
@@ -59,3 +59,11 @@ SCA (Software Composition Analysis)
 
 * [mend.io](https://www.mend.io/) (formerly Whitesource) - Has established itself in the .NET world
 * [SNYK](https://snyk.io/)
+
+## Testing
+
+- [Respawn](https://github.com/jbogard/Respawn ) - To reset test data in integration tests (faster than DB deletion/re-creation or table truncation).
+
+## Resilience 
+
+- [Polly](https://github.com/App-vNext/Polly)

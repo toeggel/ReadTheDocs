@@ -5,13 +5,13 @@ tags:
 
 # Architecture
 
-> [!info] Architecture is the art of choosing the right trade-offs
-
-> [!info] Eine Architektur braucht eine Vision (und ist auf das Business fokussiert).
+> Eine Architektur braucht eine Vision (und ist auf das Business fokussiert).
 
 Sie richtet sich an Werten (von Stakeholdern) aus. Steht Time-to-market im Vordergrund, wird der Fokus auf eine gute Entwicklungsproduktivität gelegt.
 
 Know __whether__ to use a tool or technology (and only partially how)
+
+> Architecture is the art of choosing the right trade-offs
 
 ## Goal
 
@@ -53,7 +53,7 @@ Know __whether__ to use a tool or technology (and only partially how)
 
 Emergent Architecture basiert auf einem stabilen __Kern__
 
-> [!info] Viele Architekturentscheide können __aufgeschoben__, und __lokal__ anstatt __zentral__ getätigt werden.
+> [!INFO] Viele Architekturentscheide können __aufgeschoben__, und __lokal__ anstatt __zentral__ getätigt werden.
 
 Gewisse Entscheide müssen früh getroffen werden:
 
@@ -87,3 +87,12 @@ Regarding "Cleaning up later"
 
 > Making messes is always slower than staying clean
 > The only way to go fast, is to go well.
+
+# Finding an architecture
+
+- there are no stupid ideas,
+- we don’t criticize; we focus on our ideas, not other people’s,
+- we generate as many ideas as possible,
+- when we run out of ideas, we should still try to grind a bit longer and tell ourselves to generate 2-3 more. It’s like running; often, the best results occur when we pass the first fatigue threshold,
+- however, it is important to set a maximum duration for brainstorming. It should be an intensive and productive meeting. There’s no point in making it an endless one. You can always organize several sessions.
+

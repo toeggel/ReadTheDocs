@@ -21,7 +21,7 @@ For full documentation visit [mkdocs.org](https://mkdocs.org).
 > Some statement
 
 ---
-> [!tip] 
+> [!TIP] 
 > asdasdasd asdasdasdasd asd ds asd asd ads ads ads das asd adsd asd asad sdas a asd das das 
 > asd
 ---

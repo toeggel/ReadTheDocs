@@ -1,6 +1,7 @@
 # PowerPoint
 
 Follow these 5 point to improve your PowerPoint presentations:
+
 * One message per page
 * Working memory => redundency effect => if I speak and show the same context, nothing get remembered (1 + 1 = 0)
     * Move text down to the notes section

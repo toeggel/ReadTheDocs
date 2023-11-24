@@ -5,14 +5,16 @@
 <details>
     <summary>js - nameof</summary>
 
-```typescript
-// very simple nameof version to ensure type safety. usage: nameof<User>(‘name’)
-export function nameof<T>(key: keyof T, instance?: T): keyof T {
-  return key;
-}
-```
 
+	```typescript
+	// very simple nameof version to ensure type safety. usage: nameof<User>(‘name’)
+	export function nameof<T>(key: keyof T, instance?: T): keyof T {
+	  return key;
+	}
+	```
+	
 </details>
+
 <details>
   <summary>js - guid</summary>
 

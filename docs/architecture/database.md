@@ -1,3 +1,8 @@
+---
+tags:
+  - Database
+---
+
 # Datenarchitektur
 
 Folgende Punkte sind entscheidende Themen bzw. Fragen zur Datenarchitektur:
@@ -27,7 +32,7 @@ Folgende Punkte sind entscheidende Themen bzw. Fragen zur Datenarchitektur:
 - Using AND queries can use indexes where OR queries cannot. Therefore we can optimize queries like that (only do it if there is actually a performance issue)
 
 ```csharp
-// this is performanterner
+// this is performanter
 var persons = await _context.Person
 .Where(p => p.Function == Function.Important && p.Status == Status.Active)
 .Union(_context.Person.Where(p => p.IsInternalUser && p.Status == Status.Active))
@@ -39,3 +44,10 @@ var persons = await _context.Person
 .ToListAsync();
 
 ```
+
+# Concurrency 
+
+**Optimistic Concurrency** is more suitable when conflicts are less likely, while **Pessimistic Concurrency** is used when conflicts are anticipated
+
+**Optimistic Concurrency** => use RowVersion column in DB and property in model
+**Pessimistic Concurrency** => use Transactions

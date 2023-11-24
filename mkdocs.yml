@@ -8,19 +8,21 @@ nav:
   - 'architecture/c4.md'
   - 'architecture/caching.md'
   - 'architecture/database.md'
+  - 'architecture/isqb.md'
   - 'architecture/lightweight.md'
   - 'architecture/microservice.md'
   - 'architecture/misc.md'
   - 'architecture/onion.md'
   - 'architecture/patterns.md'
+  - 'architecture/resilience.md'
   - 'architecture/self-contained-systems.md'
   - 'architecture/service-bus.md'
   - 'architecture/tools.md'
   - 'architecture/uow.md'
   - 'architecture/vertical-slice.md'
 - Azure: 
-  - 'azure/azure.md'
   - 'azure/app-insights.md'
+  - 'azure/azure.md'
 - C#: 
   - 'dot-net/const-static-readonly.md'
   - 'dot-net/functional-approach.md'
@@ -61,6 +63,7 @@ nav:
   - 'misc/power-point.md'
   - 'REST': 'misc/rest.md'
   - 'Testing': 'misc/testing.md'
+  - 'misc/validation.md'
 - About: 'about.md'
 theme: 
   name: material

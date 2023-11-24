@@ -28,3 +28,9 @@ When creating layouts it’s often easier to think in pixels but output in <code
 You can have pixel to <code>rem</code> calculations done automatically via a preprocessor like Stylus / Sass / Less, or a postprocessor like PostCSS with the PXtoRem plugin.
 
 Use <code>%</code> for font-size
+
+# Tailwind
+
+> [!warning] Do not use `@apply` just to make things look “cleaner”.
+
+If you’re going to use `@apply`, use it for very small, highly reusable things like buttons and form controls — and even then only if you’re not using a framework like React where a component would be a better choice.

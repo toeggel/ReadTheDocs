@@ -5,6 +5,7 @@ tags:
   - PKM
 ---
 # Obsidian
+
 On this page I test Obsidian features. Some might work, some wont. Above this title we have some font matter properties
 
 ## Inline
@@ -18,11 +19,11 @@ On this page I test Obsidian features. Some might work, some wont. Above this ti
 
 ## Callout
 
-> [!info]
+> [!INFO]
 > This callout will get converted to the mkdocs admonition format (see note below) by the mkdocs-callouts plugin
 
 
-> [!tip] Just Another Callout
+> [!TIP]- Just Another Callout, which is collapsed
 > Wow
 
 

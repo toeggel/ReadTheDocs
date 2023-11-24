@@ -41,5 +41,5 @@ The **in-memory** distributed cache isn't actually a distibuted cache but might 
 
 **SQL Server cache** allows complex queries since it is a relational DB.
 
-> [!info] Redis is generally recommended as a distributed cache solution
+> [!TIP] Redis is generally recommended as a distributed cache solution
 

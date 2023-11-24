@@ -20,4 +20,4 @@ Guidelines for dumb components:
  
 Try to use dumb components as much as possible! They make your application less complex and easier to reason about. 
 
-> [!quote] If it can be Dumb, make it Dumb
+> [!QUOTE] If it can be Dumb, make it Dumb

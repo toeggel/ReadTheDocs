@@ -5,6 +5,7 @@
 > Culture of shared responsibility
 
 **DevOps is**
+
 * A mindset
 * A culture
 * A set of technical practices
@@ -12,6 +13,7 @@
 This mainly leads to the fact that different "businesses or teams" need to work together (dev, test, business, ops, UX, ... )
 
 **Goal**
+
 * Business with fast the ability to adapt fast to the customers needs are more successful
 * Built the right thing
 * Get feedback fast
@@ -19,6 +21,7 @@ This mainly leads to the fact that different "businesses or teams" need to work 
 	* We don't want to maximize the number of features (stuff) delivered but we want to solve the problems of our customers
 
 **This can be achieved by**
+
 * Shift left => get feedback earlier in the process. Once it reaches the development phase it should be clear and fast to release
 * Reduce lead time
 	* Reduce the time from "business ideas and features" to release of such features.

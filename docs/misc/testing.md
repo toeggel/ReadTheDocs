@@ -10,4 +10,5 @@ The tests are defined by the business requirements. We need tests that test thos
 A good practice is to create new models (copy) for the tests. If we do so, we indirectly also test the contract because if we need to change the models on the tests, then we also have to change the code on the consumer side.
 
 --- 
+
 Unit test are often an obstacle for refactorings (so much tests break, especially the ones that have many mocks) even though they should enable it.
