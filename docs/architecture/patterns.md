@@ -3,6 +3,7 @@ tags:
   - Architecture
   - Pattern
 ---
+
 # Patterns
 
 ## Strangler (Fig) Pattern

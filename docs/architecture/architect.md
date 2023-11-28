@@ -1,6 +1,7 @@
 ---
 tags:
   - Architect
+  - Architecture
 ---
 
 # Software Architect

@@ -1,6 +1,7 @@
 ---
 tags:
   - Architecture
+  - Distributed-System
 aliases:
   - self-contained systems
   - scs

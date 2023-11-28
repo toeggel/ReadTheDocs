@@ -98,3 +98,12 @@ Regarding "Cleaning up later"
 - when we run out of ideas, we should still try to grind a bit longer and tell ourselves to generate 2-3 more. It’s like running; often, the best results occur when we pass the first fatigue threshold,
 - however, it is important to set a maximum duration for brainstorming. It should be an intensive and productive meeting. There’s no point in making it an endless one. You can always organize several sessions.
 
+# Best Practices
+
+- Modularity
+- KISS
+- Separation of Concerns
+- Release fast, release often 
+	- "If you do a big bang rewrite, the only thing you're certain of is  a big bang" 💥
+	- "You cannot become a Kung-Fu master by reading about Kung-Fu. You have to practice it"
+- 

@@ -28,7 +28,12 @@ How easy it is to navigate through the code? Is it easy to spot where the API fu
 
 ## Cohesion
 
-> Stuff that changes together should live together (e.g.: achieved with layering)
+> Stuff that changes together should live together (e.g.: achieved with vertical slicing)
+
+
+## Modularity
+
+Enforce modularity where possible (don't leave it to the discipline of the devs).
 
 ## Release Early, Release Often and You'll Start to Write Better Code
 
@@ -48,3 +53,4 @@ as for you, you'll get to learn more about your code and your users
 Usually we write comments when the intent of the code is not clear. Instead of writing comments we should ask ourselves => `Can I write the code better?`
 
 > Comments are often lies.
+
