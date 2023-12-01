@@ -48,6 +48,65 @@ as for you, you'll get to learn more about your code and your users
 
 > Makes your code easier to read and easier to test.
 
+## Treat it like literature
+
+It has forms, header, paragraphs, ..
+
+> [!EXAMPLE]+ Before
+> ```csharp
+> var userIdList = userIds.ToList();  
+>
+> var persons = GetCachedPersons(userIdList);  
+>   
+> var remainingPersonUserIds = GetRemainingUserIds(userIdList, persons);
+>   
+> if (!remainingPersonUserIds.Any())  
+> {  
+>     return persons;  
+> }
+>   
+> var personsFromPm = GetValidPersonsFromPersonManagement(remainingPersonUserIds);
+>   
+> persons.AddRange(personsFromPm)  
+>   
+> var remainingUserIds = GetRemainingUserIds(userIdList, persons);
+>   
+> if (!remainingUserIds.Any())  
+> {  
+>     return persons;  
+> } 
+> 
+> var users = GetUsers(remainingUserIds); 
+> 
+> persons.AddRange(users.MapToPersons())  
+>   
+> return persons.DistinctBy(p => p.UserId);
+> ```
+
+> [!EXAMPLE]+ After
+> ```csharp
+> var userIdList = userIds.ToList();  
+>
+> var persons = GetCachedPersons(userIdList);  
+>   
+> var remainingPersonUserIds = GetRemainingUserIds(userIdList, persons);  
+> if (!remainingPersonUserIds.Any())  
+> {  
+>     return persons;  
+> }  
+> var personsFromPm = GetValidPersonsFromPersonManagement(remainingPersonUserIds);  
+> persons.AddRange(personsFromPm)  
+>   
+> var remainingUserIds = GetRemainingUserIds(userIdList, persons);  
+> if (!remainingUserIds.Any())  
+> {  
+>     return persons;  
+> }  
+> var users = GetUsers(remainingUserIds);  
+> persons.AddRange(users.MapToPersons())  
+>   
+> return persons.DistinctBy(p => p.UserId);
+> ```
 ## Comments
 
 Usually we write comments when the intent of the code is not clear. Instead of writing comments we should ask ourselves => `Can I write the code better?`

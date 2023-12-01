@@ -53,6 +53,7 @@ nav:
 - Misc:
   - 'misc/beautiful-code.md'
   - 'misc/clean-code.md'
+  - 'misc/containerization.md'
   - 'misc/dev-ops.md'
   - 'git': 'misc/git.md'
   - 'GitHub': 'misc/github.md'
