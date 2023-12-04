@@ -1,3 +1,8 @@
+---
+tags:
+  - Azure
+---
+
 # Azure Functions vs Azure Logic Apps
 
 Azure Functions is a serverless __compute__ service.

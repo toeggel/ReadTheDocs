@@ -1,4 +1,10 @@
-# AppInsights
+---
+tags:
+  - Azure
+  - Logging
+---
+
+# App Insights
 
 AppInsights uses the SQL like KQL (Kusto Query Language). Microsoft has a nice SQL to KQL cheat sheet: https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/sqlcheatsheet
 
