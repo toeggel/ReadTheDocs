@@ -8,7 +8,7 @@ nav:
   - 'architecture/c4.md'
   - 'architecture/caching.md'
   - 'architecture/database.md'
-  - 'architecture/isqb.md'
+  - 'architecture/isaqb.md'
   - 'architecture/lightweight.md'
   - 'architecture/microservice.md'
   - 'architecture/misc.md'
@@ -18,11 +18,11 @@ nav:
   - 'architecture/self-contained-systems.md'
   - 'architecture/service-bus.md'
   - 'architecture/tools.md'
-  - 'architecture/uow.md'
+  - 'architecture/unit-of-work.md'
   - 'architecture/vertical-slice.md'
-- Azure: 
-  - 'azure/app-insights.md'
-  - 'azure/azure.md'
+# - Azure:
+#   - 'azure/app-insights.md'
+#   - 'azure/azure-services.md'
 - C#: 
   - 'dot-net/const-static-readonly.md'
   - 'dot-net/functional-approach.md'
