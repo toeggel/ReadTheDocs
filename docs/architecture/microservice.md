@@ -1,10 +1,13 @@
 ---
 tags:
   - Architecture
+  - Distributed-System
 ---
 # Microservices 
 
 > [!TIP] Consider a modular monolith before creating a microservice architecture.
+
+> [!TIP] It's usually best to start with something monolithic and modular, and only decomposing in response to genuine need.
 
 - Do not make long service dependencies (A->B->C->D->...). This will eventually fail (Bad performance and bad availability).
 	- This can and has to be solved with data duplication (no changes though)
@@ -23,7 +26,7 @@ A microservices can offer a lot of good properties such as:
 - Bounded context or aggregate
 - Encapsulated data
 
-but so does a modular monolith!
+but so does a modular [monolith](monolith.md)!
 Microservices excel in other areas such as:
 
 - Individually deployable
@@ -47,3 +50,4 @@ With MFE architecture, a large application is split into:
 ---
 
 [self-contained systems](self-contained-systems.md)
+[monolith](monolith.md)

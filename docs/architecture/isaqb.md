@@ -33,17 +33,19 @@ Ziele explizit machen und festhalten (dokumentieren)
  * wiederverwendbar
  * austauschbar
 
-## Anforderungen
+## (Qualitäts-) Anforderungen
 
 * Funktionale Anforderungen (Grund für QA)
 * Randbedingungen (Grund für QA)
-* **Qualitätsanforderungen** (QA) (früher Nicht-funktionale-Anforderungen)
+* **Qualitätsanforderungen** (QA) (früher Nicht-funktionale-Anforderungen) (alternative: *architecture characteristics*)
     * Kernaufgabe als Architekt
 * Qualitätsszenario (Zur Verifizierung oder Bewertung von QA)
     * Testfälle für Software Architektur (oft nicht automatisch/trivial ausführbar)
 * Qualitätsmerkmale (kategorisieren QA)
     * Benutzbarkeit, Performance, *abilities, ...
 * Nicht-Anforderungen (not in scope) => super wichtig
+
+Often it is impossible to prioritize the architecture characteristics (with the stakeholders). Instead we should identify the 3 most important ones (but unprioritized).
 
 ### Qualitätsszenario
 
@@ -125,6 +127,8 @@ Clustering von Anforderungen (Funktionales Clustering / Fachlicher Schnitt) nach
 
 ## ADR (Architectural Decision Records)
 
+See: [architectural-decision-records](architectural-decision-records.md)
+
 > [!TIP] Entwurfsentscheidungen systematisch dokumentieren
 
 ADRs können auch im selben Repo zum Code eingecheckt werden. So können ADRs bei Diskussionen erstellte werden (z.B.: im Status Proposed) und bei der Implementierung im selben PR wie der Code updated werden. Dadurch werden sie auch gereviewed.
@@ -157,6 +161,7 @@ ADRs können auch im selben Repo zum Code eingecheckt werden. So können ADRs be
  
 * Vorwärts gehen und (verschiedene Varianten) Ausprobieren.
 * Warten und nicht entscheiden ist oft das schlechteste und teuerste.
+* Decisions are made in a given context - The same decision made in one context can bring great results, while in another it can cause devastating failure.
 
 ## Querschnittliche Konzepte (Cross-Cutting Concerns)
 

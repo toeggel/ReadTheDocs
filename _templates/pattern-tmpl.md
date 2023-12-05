@@ -3,13 +3,26 @@ tags:
   - Pattern
 ---
 
-## Title
+# Title
 
 // Intro text
-### Problem
+
+## Context
+
+// Benefit, Drawbacks, Issues to resolve (because of the pattern)
+
+## Problem
 
 // Problem description
 
-### Solution
+## Forces
+
+// 
+
+## Solution
 
 // Solution
+
+## Related
+
+// Alternatives, transitive patterns, ..

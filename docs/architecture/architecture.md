@@ -5,13 +5,23 @@ tags:
 
 # Architecture
 
-> Eine Architektur braucht eine Vision (und ist auf das Business fokussiert).
+Eine Architektur braucht eine Vision (und ist auf das Business fokussiert).
 
 Sie richtet sich an Werten (von Stakeholdern) aus. Steht Time-to-market im Vordergrund, wird der Fokus auf eine gute Entwicklungsproduktivität gelegt.
 
 Know __whether__ to use a tool or technology (and only partially how)
 
-> Architecture is the art of choosing the right trade-offs
+>[!QUOTE] Architecture is the art of choosing the right trade-offs
+
+> [!TIP]
+> Don’t try to find the _best_ design in software architecture; instead, strive for the _least worst_ combination of trade-offs.
+
+**What is architecture**
+
+* Structure
+* Split into components
+* Interfaces
+* Dependencies 
 
 ## Goal
 
@@ -19,14 +29,18 @@ Know __whether__ to use a tool or technology (and only partially how)
 * Most simple (_and not most flexible_) solution for the problem to solve
 * Keep the cost of change low
 
-See: [Architekturziele](isqb.md#Architekturziele)
+See: [Architekturziele](isaqb.md#Architekturziele)
 
-## What is architecture
+## Architectural Drivers
 
-* Structure
-* Split into components
-* Interfaces
-* Dependencies 
+Architectural Drivers are usually connected with each other and have trade-offs.
+
+- **Functional Requirements** - what and how problems does the system solve
+- **Quality Attributes** - a set of attributes that determine the quality of architecture like maintainability or scalability.
+- **Technical Constraints** - technology standards, tools limitations, team experience
+- **Business Constraints** - budget, hard deadline
+
+> _You have some service that calculates some important thing (Functional Requirement) in 3 seconds (Quality Attribute - performance). A new requirement appears, calculation is more complex and takes now 5 seconds (Performance decreased). To go back to 3 seconds another technology could be used, but there is no time for it (Business Constraint - hard deadline) and nobody has used it in the company yet (Technical Constraint - team experience). The only option to increase performance is to move the calculation to the stored procedure, which decreases maintainability and readability (Quality Attributes)._
 
 ## Architecture Smoketest (based on documentation)
 
@@ -34,10 +48,16 @@ See: [Architekturziele](isqb.md#Architekturziele)
 * What are the responsibilities of each box and line in a diagram?
 * How does the Architecture fulfill the systems quality requirements?
 
+### Fitness tests
+
+Fitness functions validate architecture characteristics, not domain criteria; unit tests are the opposite. Thus, an architect can decide whether a fitness function or unit test is needed by asking the question: “Is any domain knowledge required to execute this test?” If the answer is “yes,” then a unit/function/user acceptance test is appropriate; if “no,” then a fitness function is needed.
+
+**Example:**  A tests which makes sure that certain module dependencies are enforced (Module X does not reference Module Y). 
+
 ## Grundsätze, Prinzipien
 ### Grundsätze (always true)
 
-* Success of the architecture is meassured by the stakeholders (not by the architect)
+* Success of the architecture is meassurd by the stakeholders (not by the architect)
 * KISS
 * "There is no silver bullet". Always decide specifically
 * Make everything explizit (requirements, assumptions, non-functional requirements)
@@ -106,4 +126,3 @@ Regarding "Cleaning up later"
 - Release fast, release often 
 	- "If you do a big bang rewrite, the only thing you're certain of is  a big bang" 💥
 	- "You cannot become a Kung-Fu master by reading about Kung-Fu. You have to practice it"
-- 

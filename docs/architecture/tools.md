@@ -46,9 +46,6 @@ A list of tools, frameworks and more where I had good experience with or I got r
 Others recommendations
 
 - [LaunchDarkly](https://launchdarkly.com/)
-- WireMock.Net
-- Bogus vs. AutoFixtures
-- Moq.AutoMocker
 
 ## Vulnerability monitoring
 
@@ -60,10 +57,17 @@ SCA (Software Composition Analysis)
 * [mend.io](https://www.mend.io/) (formerly Whitesource) - Has established itself in the .NET world
 * [SNYK](https://snyk.io/)
 
-## Testing
+## Testing / Mocking
 
 - [Respawn](https://github.com/jbogard/Respawn ) - To reset test data in integration tests (faster than DB deletion/re-creation or table truncation).
+- Bogus vs. AutoFixtures
+- Moq.AutoMocker
+- [WireMock.Net](https://github.com/WireMock-Net/WireMock.Net)  - mimics the behaviour of an HTTP API
 
+Never used or recommended so far but maybe useful:
+
+* [NetArchTest](https://github.com/BenMorris/NetArchTest) -  allows you to create tests that enforce conventions for class design, naming and dependency in .Net code bases.
 ## Resilience 
 
 - [Polly](https://github.com/App-vNext/Polly)
+

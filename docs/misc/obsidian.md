@@ -10,8 +10,7 @@ On this page I test Obsidian features. Some might work, some wont. Above this ti
 
 ## Inline
 
-![misc](misc.md)
-
+![misc](misc.md#Agile)
 ## Links
 
 [misc](misc.md)
@@ -22,14 +21,18 @@ On this page I test Obsidian features. Some might work, some wont. Above this ti
 > [!INFO]
 > This callout will get converted to the mkdocs admonition format (see note below) by the mkdocs-callouts plugin
 
-
 > [!TIP]- Just Another Callout, which is collapsed
 > Wow
-
 
 !!! note
     Callouts (see above) will get converted to this format (mkdocs admonition) by the mkdocs-callouts plugin
 
+**alternative:**
+
+---
+>**Tip**
+>Just a tip
+---
 
 ## PlantUML
 

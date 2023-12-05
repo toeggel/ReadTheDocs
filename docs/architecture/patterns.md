@@ -79,7 +79,7 @@ How to reliably/atomically update the database and send messages/events?
 A service that uses a relational database inserts messages/events into an _outbox_ table (e.g. `MESSAGE`) as part of the local transaction (i.e. while performing the actual DB transaction like creating an order). Both, the message and the entity are committed (or rollbacked) with the same commit.
 A separate _Message Relay_ process publishes the events inserted into database outbox table to a message broker.
 
-### Alternatives
+### Related
 
 https://stackoverflow.com/questions/72284628/comparing-cdc-vs-outbox-pattern-for-creating-event-streams
 

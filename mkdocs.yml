@@ -4,6 +4,7 @@ nav:
 - About: 'index.md'
 - Architecture:
   - 'architecture/architect.md'
+  - 'architecture/architectural-decision-records.md'
   - 'architecture/architecture.md'
   - 'architecture/c4.md'
   - 'architecture/caching.md'
@@ -12,6 +13,7 @@ nav:
   - 'architecture/lightweight.md'
   - 'architecture/microservice.md'
   - 'architecture/misc.md'
+  - 'architecture/monolith.md'
   - 'architecture/onion.md'
   - 'architecture/patterns.md'
   - 'architecture/resilience.md'
@@ -20,9 +22,9 @@ nav:
   - 'architecture/tools.md'
   - 'architecture/unit-of-work.md'
   - 'architecture/vertical-slice.md'
-# - Azure:
-#   - 'azure/app-insights.md'
-#   - 'azure/azure-services.md'
+- Azure:
+  - 'azure/app-insights.md'
+  - 'azure/azure-services.md'
 - C#: 
   - 'dot-net/const-static-readonly.md'
   - 'dot-net/functional-approach.md'
