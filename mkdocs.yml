@@ -87,6 +87,8 @@ theme:
     toggle:
       icon: material/brightness-4
       name: Switch to light mode
+extra_css:
+  - stylesheets/theme.css
 plugins:
   - search 
   - tags
@@ -96,5 +98,5 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-    
+
   

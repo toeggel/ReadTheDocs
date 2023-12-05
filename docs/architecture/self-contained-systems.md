@@ -12,6 +12,7 @@ aliases:
 An architectural approach that separates a larger system’s functionality into many independent, collaborating systems. This approach helps avoid the problem of large monoliths that grow constantly and eventually become unmaintainable
 
 **Key characteristics of SCS:**
+
 - **Autonomous:** Each SCS is an autonomous web application (DB, Backend, Frontend, ...)
 - **One Team Ownership:** Each SCS is owned by one team and a user story is typically implemented by one team changing one SCS, promoting developer productivity and minimizing coordination efforts
 - **Single SCS Deployments**: SCS should ensure that a feature can be implemented in a single SCS, allowing it to be brought into production with a single deployment. This differs from microservices, which may require changes to multiple microservices for a single feature.
@@ -21,7 +22,6 @@ An architectural approach that separates a larger system’s functionality into 
 
 While SCS are similar to microservices, there are differences. A system will usually contain fewer SCS than microservices. Also, microservices can communicate with other microservices – even synchronously. SCS prefer no communication or asynchronous communication. A SCS has the size of at least one microservice.
 
-
-# Related
+---
 
 [vertical-slice](vertical-slice.md)
