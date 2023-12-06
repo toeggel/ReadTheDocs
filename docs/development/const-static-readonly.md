@@ -1,4 +1,10 @@
+---
+tags:
+  - dotNet
+---
+
 # Const vs Static vs Readonly
+
 Here's what you need to know about using <code>const</code>, <code>static</code>, and <code>readonly</code>:
 
 1.	If you know the value will never, ever, ever change for any reason, use <code>const</code>. (Other Assemblies that use this value need to be recompiled before they get the new value)

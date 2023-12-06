@@ -1,3 +1,9 @@
+---
+tags:
+  - dotNet
+  - Functional
+---
+
 # Functional approach
 
 Can improve:

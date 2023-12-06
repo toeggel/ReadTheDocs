@@ -3,6 +3,7 @@ tags:
   - dotNet
 ---
 # Record types
+
 Can your data type be a _value_ type? Go with `struct`. No? Does your type describe a value-like, preferably immutable state and is used in unidirectional (one way) flow? Go with `record`.
 
 Use `class` otherwise. So...

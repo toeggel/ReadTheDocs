@@ -25,11 +25,12 @@ nav:
 - Azure:
   - 'azure/app-insights.md'
   - 'azure/azure-services.md'
-- C#: 
-  - 'dot-net/const-static-readonly.md'
-  - 'dot-net/functional-approach.md'
-  - 'dot-net/enum-handling.md'
-  - 'dot-net/record-types.md'
+- Development: 
+  - 'development/blazor.md'
+  - 'development/const-static-readonly.md'
+  - 'development/functional-approach.md'
+  - 'development/enum-handling.md'
+  - 'development/record-types.md'
 - Frontend:
   - 'Angular':
     - 'frontend/angular/index.md'
