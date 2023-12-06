@@ -1,3 +1,8 @@
+---
+tags:
+  - frontend
+---
+
 # Types
 
 ## Mapped types

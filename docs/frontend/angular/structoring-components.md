@@ -1,11 +1,13 @@
 # Components - Smart vs. Dumb
 
 ## Smart (Container) Components 
+
 A Smart Component has external dependencies or causes side effects (but still might or might not have a local state).
 
 * Knows stuff about the use-case (feature)
 
 ## Dumb (Presentational) Components
+
  A Dumb Component has no external dependencies and causes no side effects (but still might or might not have a local state).
 
 * Doesn't care about a specific use-case (feature) but it supports it anyway (e.g.: displaying an adress. This component might support multiple use-cases)

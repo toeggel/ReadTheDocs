@@ -1,4 +1,5 @@
 ## Firebase setup (Angular App)
+
  - create firebase project online
  - 1st Time
 	- npm install -g firebase-tools (if not already installed)

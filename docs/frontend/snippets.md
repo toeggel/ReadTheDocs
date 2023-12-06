@@ -1,3 +1,8 @@
+---
+tags:
+  - frontend
+---
+
 # Some useful code snippets
 
 ## JS

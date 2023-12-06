@@ -1,6 +1,7 @@
 # Misc
 
 ## Async as
+
 use __async as__ syntax as much as possible (reduces subscriptions / stream calls / complexity)
 ```html
 <div *ngIf="(user$ | async) as user">
@@ -9,6 +10,7 @@ use __async as__ syntax as much as possible (reduces subscriptions / stream call
 ```
 
 ## NgIf Else
+
 ```*ngIf="value"; else notValue``` as an easy alternative to ```*ngIf="!value"```
 ```html
 <div *ngIf="isLoggedIn; else loggedOut">
@@ -19,6 +21,7 @@ use __async as__ syntax as much as possible (reduces subscriptions / stream call
 </ng-template>
 ```
 ## Input with observables
+
 Pass values to components instead of observables to reduce coupling
 
 If observables are passed to a component a child component might trigger something in the parent component. Imagine a parent component defining an observable like this
@@ -41,6 +44,7 @@ filteredusers$ = this.users$.pipe(switchMap(users => this.fooService.filterUsers
 ```
 
 ## Performance issues in Angular
+
 Debugging Performance Problems in Angular:
 
 1. Add debug() to html template

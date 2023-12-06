@@ -21,6 +21,7 @@ __Do__ use aliases for importing modules or libraries.
 __Do__ use async-pipe in view and pass value to action instead of directly working on the stream within the action.
 
 ## Typescript
+
 __Avoid__ using any.
 __Why?__ It creates enormous bug opportunity.
 
@@ -29,6 +30,7 @@ __Why?__ A class generates code since it is primarily syntactical sugar over Jav
 __Why?__ An interface does not generate code since it is a virtual structures that only exist within the context of TypeScript.  
 
 ## rxjs
+
 __Do__ use Marble Diagrams to understand rxjs (e.g. https://rxmarbles.com/, https://rxjs-dev.firebaseapp.com/api).
 
 __Do__ unsubscribe from observables (e.g. by calling unsubscribe(), using an operator that completes the stream, using the async pipe).  
