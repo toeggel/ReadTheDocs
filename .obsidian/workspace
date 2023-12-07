@@ -1,0 +1,106 @@
+{
+  "main": {
+    "id": "7024a9cc996be831",
+    "type": "split",
+    "children": [
+      {
+        "id": "592871c690fd3859",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "11f0a9e3b41278ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "d68a4d477060710f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a593d9cae17d4704",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "49d08b122d8a4693",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#dotNet",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 266.5
+  },
+  "right": {
+    "id": "fe07415bdfc898b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "e96ea88345b2436b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67c7f9ffeb77975d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "3a9485f538de5864",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "592871c690fd3859",
+  "lastOpenFiles": [
+    "docs/enumHandling.md",
+    "docs/dotNet.md",
+    "docs/Record types.md",
+    "readme.md",
+    "docs/index.md",
+    "docs/about.md",
+    "Entity Framework.md",
+    "docs/misc/beautifulCode.md",
+    "docs/architecture/lightweight.md",
+    "docs/architecture/database.md"
+  ]
+}
