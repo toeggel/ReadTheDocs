@@ -12,3 +12,5 @@
 > 
 > "We're programmer, we're smarter than runners and know how to fix that problem. We just fire the starting pistol every 100 meters and call it a sprint!"
 
+
+> Certified Really Agile Programmer (CRAP)

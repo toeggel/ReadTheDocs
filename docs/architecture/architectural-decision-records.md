@@ -6,7 +6,6 @@ tags:
 
 # Architectural Decision Records (ADR)
 
-
 > [!TIP] Entwurfsentscheidungen systematisch dokumentieren
 
 ADRs können auch im selben Repo zum Code eingecheckt werden. So können ADRs bei Diskussionen erstellte werden (z.B.: im Status Proposed) und bei der Implementierung im selben PR wie der Code updated werden. Dadurch werden sie auch gereviewed.

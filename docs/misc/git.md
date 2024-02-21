@@ -1,3 +1,18 @@
+# Stacked Diffs
+
+For larger features you often have to wait long for PR reviews. Stacked diffs address this issue to reduce waiting time for PR reviews.
+The main idea behind "**stacked diffs**" is a development workflow that involves breaking down large features into smaller, manageable units called "diffs" or "change sets" and stacking them on top of each other.  
+This is mainly achieved by creating **small, self-contained changes that builds upon the change before it**. This contrasts with the traditional model where large changes are reviewed in a single, monolithic pull request.
+ ![](../assets/stacked-diffs.png)
+
+The main difficulty with this approach arises when changes in the parent PR occur (e.g. PR feedback). Those changes often produce merge conflicts which propagate through all child branches. This issue can be mitigated with *interactive rebase*.
+
+![](../assets/stacked-diffs-rebase.png)
+
+Tools to support stacked diffs
+
+- Phabricator
+- Graphite
 # Gitflow
 
 The key premise of Gitflow is that each commit to your primary branch (main) represents a release and a secondary branch, develop, is used for ongoing development. New features are built on feature branches and then reviewed and merged into the develop branch. When changes are ready to be released, a release branch is created, and when the release is complete that branch is merged into the primary branch.

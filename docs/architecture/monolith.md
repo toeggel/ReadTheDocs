@@ -1,6 +1,7 @@
 ---
 tags:
   - Architecture
+  - Modular
 ---
 
 # Monolith
@@ -30,6 +31,11 @@ Technical layers are often used as "modules" but this is very bad in regards to 
 
 Module must have **well-defined interface** (a contract). We only want to have one "arrow" from Module A -> Module B.
 
----
+A modular component is a building block of the application that has a well-defined role and responsibility in the system and a well-defined set of operations.
+
+It is often difficult to enforce modularity in monolith and it often relies on discipline.
+
+# Related
 
 [microservice](microservice.md)
+[vertical-slice](vertical-slice.md)

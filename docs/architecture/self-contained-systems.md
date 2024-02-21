@@ -22,6 +22,7 @@ An architectural approach that separates a larger system’s functionality into 
 
 While SCS are similar to microservices, there are differences. A system will usually contain fewer SCS than microservices. Also, microservices can communicate with other microservices – even synchronously. SCS prefer no communication or asynchronous communication. A SCS has the size of at least one microservice.
 
----
+# Related
 
+[microservice](microservice.md)
 [vertical-slice](vertical-slice.md)

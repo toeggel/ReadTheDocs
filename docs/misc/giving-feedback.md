@@ -6,13 +6,13 @@
 * State facts don't make assumptions
     * Where/When did it happen (also see: concrete)
     * What did the other person do or say (facts)
-        * **NOT** "I belive you said that because you thought..." 
+        * **NOT** "I believe you said that because you thought..." 
 * Impact on me or others
     * How did that make me feel?
 
 ## Notes
 
-Sponanoes Feedback (e.g. after a Meeting)
+Spontaneous Feedback (e.g. after a Meeting)
 * What can I do differently? Why?
 * What could I have done better?
 
