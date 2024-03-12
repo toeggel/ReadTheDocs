@@ -1,0 +1,30 @@
+h1 {
+    font-weight: bold !important;
+    color: #bf616a !important;
+}
+
+h2 {
+    font-weight: bold !important;
+    color: #d08770 !important;
+}
+
+h3 {
+    font-weight: bold !important;
+    color: #ebcb8b !important;
+}
+
+h4 {
+    color: #a3be8c !important;
+}
+
+h5 {
+    color: #b48ead !important;
+}
+
+strong {
+    color: #ebcb8b !important;
+}
+
+em {
+    color: #ebcb8b !important;
+}
