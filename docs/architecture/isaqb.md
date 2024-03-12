@@ -238,7 +238,6 @@ Oft bleiben wir bei *1st order of ignorance* hängen. Wir müssen unbedingt auf 
 
 ## Architekturbewertung
 
-
 > [!INFO]  Erfüllt die Architektur die Qualitätsziele (Qualitätsanforderungen) die an sie gestellt werden.
 
 Quantitative Bewertung
