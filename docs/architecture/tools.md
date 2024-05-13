@@ -6,7 +6,7 @@ A list of tools, frameworks and more where I had good experience with or I got r
 
 - [PlantUML](https://plantuml.com/)
 - [mermaid](https://mermaid-js.github.io/)
-- [Structorizr](https://structurizr.com/)
+- [Structurizr](https://structurizr.com/)
 
 ## Infrastructure as Code (IaC)
 

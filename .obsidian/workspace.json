@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "48c23aeaf88656d5",
+        "id": "3b7d1f1f89d26c5d",
         "type": "tabs",
         "children": [
           {
-            "id": "6a6eed4a7182b4f3",
+            "id": "daf374b947739c94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/architecture/tools.md",
+                "file": "docs/architecture/onion.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cqrs",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/architecture/tools.md",
+                "file": "docs/architecture/onion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,42 +123,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6a6eed4a7182b4f3",
+  "active": "daf374b947739c94",
   "lastOpenFiles": [
+    "docs/architecture/vertical-slice.md",
+    "docs/architecture/monolith.md",
+    "docs/assets/modulear-monolith-example.png",
+    "docs/misc/obsidian.md",
+    "docs/frontend/snippets.md",
+    "docs/frontend/html5.md",
+    "docs/architecture/architect.md",
+    "docs/architecture/architecture.md",
+    "docs/architecture/architecture-documentation.md",
+    "docs/architecture/architecture-overview.md",
+    "docs/architecture/tools.md",
+    "docs/architecture/whiteboard-model.md",
+    "docs/architecture/c4.md",
+    "docs/architecture/microservice.md",
+    "docs/architecture/self-contained-systems.md",
+    "docs/architecture/unit-of-work.md",
+    "docs/architecture/components.md",
+    "docs/assets/components.png",
+    "docs/assets/diagram-test-2.svg",
+    "docs/assets/diagram-test.svg",
+    "docs/assets/stacked-diffs-rebase.png",
+    "docs/assets/stacked-diffs.png",
+    "docs/assets/Screenshot 2024-01-10 085255.png",
+    "Screenshot 2024-03-27 100154.png",
+    "docs/assets/mfe-decision-tree.png",
+    "docs/assets/Screenshot 2024-03-27 100154.png",
+    "docs/architecture/architectural-decision-records.md",
     "docs/misc/misc.md",
     "docs/architecture/misc.md",
-    "docs/architecture/components.md",
-    "docs/architecture/c4.md",
-    "docs/architecture/architectural-decision-records.md",
-    "docs/architecture/architecture.md",
-    "docs/architecture/architect.md",
     "docs/architecture/isaqb.md",
     "docs/misc/git.md",
     "docs/misc/github.md",
-    "docs/misc/obsidian.md",
     "docs/architecture/patterns.md",
     "docs/architecture/caching.md",
     "docs/architecture/database.md",
-    "docs/architecture/microservice.md",
-    "docs/development/enum-handling.md",
-    "docs/architecture/vertical-slice.md",
-    "components.png",
-    "docs/architecture/lightweight.md",
-    "docs/architecture/monolith.md",
-    "docs/architecture/onion.md",
-    "docs/architecture/resilience.md",
-    "docs/architecture/unit-of-work.md",
-    "docs/architecture/service-bus.md",
-    "docs/architecture/self-contained-systems.md",
-    "docs/assets/stacked-diffs-rebase.png",
-    "docs/assets/stacked-diffs.png",
-    "docs/assets/Screenshot 2024-01-10 085538.png",
-    "docs/assets/Screenshot 2024-01-10 085629.png",
-    "docs/assets/about-service-bus-queue.png",
-    "docs/assets/Screenshot 2024-01-10 085255.png",
-    "Screenshot 2024-01-10 085255.png",
-    "docs/misc/giving-feedback.md",
-    "_templates/pattern-tmpl.md",
     "docs/development",
     "docs/stylesheets/theme.css",
     "docs/stylesheets",
@@ -169,8 +170,6 @@
     "copilot-conversations",
     "Untitled.canvas",
     "docs/pattern",
-    "_templates",
-    "docs/assets/serverless-web-app.png",
-    "docs/assets/periodic-table-of-dev-ops-tools.png"
+    "_templates"
   ]
 }

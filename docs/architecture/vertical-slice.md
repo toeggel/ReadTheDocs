@@ -4,6 +4,10 @@ tags:
 ---
 # Vertical Slice Architecture
 
+aka VSA
+
+> [!ABSTRACT] Organise by use case, not technical responsibility.
+
 > [!ABSTRACT] Minimize coupling between slices, and maximize coupling in a slice.
 
 Vertical slice architecture is based around the principle _"things that change together should be near each other"_. It applies the **_Single Responsibility Principle (SRP)_** and **_Open-Closed Principle (OCP)_** which leads to a very **high cohesion**.
@@ -13,6 +17,7 @@ Code changes (add, remove, change) often have impact on one (main) slice and hel
 	- Different slices may implement different architectural flavors. 
 - Works well together with a "task based UI"
 - Vertical slice architecture has some similarities to [CQRS](patterns.md#CQRS%20Pattern).
+- CQRS is a good pattern to use within VSA (Why? How?)
 
 Consider to take the vertical slice up to the UI. On one view there is one query request performed. The result of the query has all the data necessary for that view. The query should therefore not return an entity but a specific model. In this case, inner classes can be useful.
 

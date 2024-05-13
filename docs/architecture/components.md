@@ -3,7 +3,7 @@
 
 Components are leaf node namespaces or directories.
 
-![](../../components.png)
+![](../assets/components.png)
 1. The files within BloodStats belong to the component *BloodStats*.
 2. BodyStats.razor is an orphaned class (belonging to no component). This should be change be either moving all files in the namespace *BodyStats* or by moving BodyStats.razor into a components (e.g. Shared, Layout, ...)
 

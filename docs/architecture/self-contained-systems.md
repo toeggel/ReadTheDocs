@@ -24,5 +24,5 @@ While SCS are similar to microservices, there are differences. A system will usu
 
 # Related
 
-[microservice](microservice.md)
-[vertical-slice](vertical-slice.md)
+- [microservice](microservice.md)
+- [vertical-slice](vertical-slice.md)

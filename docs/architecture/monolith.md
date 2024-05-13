@@ -33,8 +33,68 @@ Module must have **well-defined interface** (a contract). We only want to have o
 
 A modular component is a building block of the application that has a well-defined role and responsibility in the system and a well-defined set of operations.
 
-It is often difficult to enforce modularity in monolith and it often relies on discipline.
+It is often difficult to enforce modularity in monolith and it often relies on discipline. A concrete solution could look like this.
 
+### Example
+
+The best way to **separate** modules in .Net is **by** creating **projects**  and keep everything where possible *internal* or *private*. We usually need at least one WebApi project (executable) and could then add projects for each module. A module would contain simple interfaces for the WebApi to use (such as ServiceCollectionExtensions to register services in the program as well as the endpoint definitions such as controller or minimal api definition). In addition we would add a Module.Contracts project for a clean communication interface. The WebApi can reference the module, all other modules can only reference the Contracts module. 
+
+```mermaid
+---
+title: Project references
+---
+graph TD
+	subgraph WebApiModule
+		WebApi
+	end
+	
+	subgraph OrdersModule
+		Orders
+		Orders.Contracts
+		
+		Orders --> Orders.Contracts
+	end
+	
+	subgraph PaymentModule
+		Payment
+		Payment.Contracts
+		
+		Payment --> Payment.Contracts
+	end
+	
+	WebApi --> Orders
+	WebApi --> Payment
+	Orders --> Payment.Contracts
+	Payment --> Orders.Contracts
+```
+For inter-module-communication we would introduce something like a mediator (easier) or message bus (more complex) to still have a clear separation.
+
+```mermaid
+---
+title: Direct communication (bad practices)
+---
+graph 
+	ModuleA <--> ModuleB
+	ModuleA <--> ModuleC
+	ModuleA <--> ModuleD
+	ModuleB <--> ModuleC
+	ModuleB <--> ModuleD
+	ModuleC <--> ModuleD
+```
+```mermaid
+---
+title: Communication with middleman (good practices)
+---
+graph 
+	ModuleA <--> Middleman
+	ModuleB <--> Middleman
+	ModuleC <--> Middleman
+	ModuleD <--> Middleman
+	Middleman(MessageBroker or Mediator)
+```
+
+**Example**
+![](../assets/modulear-monolith-example.png)
 # Related
 
 [microservice](microservice.md)

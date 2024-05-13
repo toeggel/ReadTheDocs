@@ -3,6 +3,7 @@ tags:
   - Architecture
   - "#Basics"
   - Decisions
+  - Documentation
 ---
 
 # Architecture
@@ -43,7 +44,6 @@ Architectural Drivers are usually connected with each other and have trade-offs.
 - **Business Constraints** - budget, hard deadline
 
 > _You have some service that calculates some important thing (Functional Requirement) in 3 seconds (Quality Attribute - performance). A new requirement appears, calculation is more complex and takes now 5 seconds (Performance decreased). To go back to 3 seconds another technology could be used, but there is no time for it (Business Constraint - hard deadline) and nobody has used it in the company yet (Technical Constraint - team experience). The only option to increase performance is to move the calculation to the stored procedure, which decreases maintainability and readability (Quality Attributes)._
-
 
 ## Grundsätze, Prinzipien
 ### Grundsätze (always true)
@@ -89,6 +89,7 @@ The **Email-Driven Architecture** anti-pattern is where people lose, forget, or 
 * How does the Architecture fulfill the systems quality requirements?
 
 > The only way to evaluate an architecture is to build and test it. Delaying this to perfect the design is a sure path to failure.
+
 ### Fitness tests
 
 Fitness functions validate architecture characteristics, not domain criteria; unit tests are the opposite. Thus, an architect can decide whether a fitness function or unit test is needed by asking the question: “Is any domain knowledge required to execute this test?” If the answer is “yes,” then a unit/function/user acceptance test is appropriate; if “no,” then a fitness function is needed.
@@ -110,7 +111,6 @@ Gewisse Entscheide müssen früh getroffen werden:
 Der __Kern__ der Emergenten Architektur soll so __stabil__ wie möglich sein. Er wird abgeleitet aus der __Art des Geschäfts__.
 
 Der __Kern__ hat meist __hohe Kosten für Änderung__ oder ihn rückgängig zu machen.
-
 
 # Finding an architecture
 
@@ -155,3 +155,5 @@ Regarding "Cleaning up later"
 > The only way to go fast, is to go well.
 
 > Building the wrong thing is the biggest waste in software development
+
+> Big design up front is dumb. Doing no design up front is even dumber.
