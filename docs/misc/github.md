@@ -6,6 +6,8 @@ __Example > Build and Deploy Gatsby page to gh-pages__
 1. Generate a token on Github (select repo): https://github.com/settings/tokens
 2. Copy token and insert as new Secret in the repository where you like to use it.
 3. Create action  (se example)
+	* Visual Studio can create one for deploying to azure. Use *Publish...* functionality for it.
+		* Make sure you select the correct branch 😉
 
 ```
 on:

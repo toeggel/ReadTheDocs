@@ -36,11 +36,11 @@ The child triggers (unknowingly / unwanted) HTTP requests
 
 Same is valid for service calls. Instead of
 ```typescript
-filteredusers$ = this.fooService.filterUsers(this.users$);
+filteredUsers$ = this.fooService.filterUsers(this.users$);
 ```
 Better do
 ```typescript
-filteredusers$ = this.users$.pipe(switchMap(users => this.fooService.filterUsers(users)));
+filteredUsers$ = this.users$.pipe(switchMap(users => this.fooService.filterUsers(users)));
 ```
 
 ## Performance issues in Angular

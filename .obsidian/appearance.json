@@ -4,6 +4,7 @@
   "accentColor": "",
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "mermaid"
+    "mermaid",
+    "editor_width"
   ]
 }

@@ -22,16 +22,17 @@ nav:
   - 'architecture/tools.md'
   - 'architecture/unit-of-work.md'
   - 'architecture/vertical-slice.md'
-- Azure:
-  - 'azure/app-insights.md'
-  - 'azure/azure-services.md'
-- Development: 
-  - 'development/blazor.md'
-  - 'development/const-static-readonly.md'
-  - 'development/functional-approach.md'
-  - 'development/enum-handling.md'
-  - 'development/record-types.md'
+- Cloud:
+  - 'cloud/logging.md'
+  - 'cloud/azure-services.md'
+- Backend: 
+  - 'backend/build-version.md'
+  - 'backend/const-static-readonly.md'
+  - 'backend/functional-approach.md'
+  - 'backend/enum-handling.md'
+  - 'backend/record-types.md'
 - Frontend:
+  - 'frontend/blazor.md'
   - 'Angular':
     - 'frontend/angular/index.md'
     - 'frontend/angular/angular-elements.md'
