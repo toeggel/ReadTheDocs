@@ -51,3 +51,44 @@ var persons = await _context.Person
 
 **Optimistic Concurrency** => use RowVersion column in DB and property in model
 **Pessimistic Concurrency** => use Transactions
+
+# Testing
+
+- EfCore.SchemaCompare (https://github.com/JonPSmith/EfCore.SchemaCompare) allows easy schema comparison against the C# models (entities).
+```csharp
+[Test]
+public void DatabaseDeployed_SchemaCompared_TableAndPropertyAndNullabilityMatchesEntityAndColumn()
+{
+	var comparer = new CompareEfSql();
+	comparer.CompareEfWithDb(_context);
+
+	var logs = comparer.Logs;
+	var tableMismatches = logs.Single().SubLogs.Where(l => l.State == CompareState.NotInDatabase && l.Type == CompareType.Entity).ToList();
+	var propertyMismatches = logs.Single().SubLogs.SelectMany(l => l.SubLogs).Where(l => l.State == CompareState.NotInDatabase && l.Type == CompareType.Property).ToList();
+	var nullabilityErrors = logs.Single().SubLogs.SelectMany(l => l.SubLogs).Where(l => l.State == CompareState.Different && l.Type == CompareType.Property && l.Attribute == CompareAttributes.Nullability).ToList();
+
+	tableMismatches.ShouldBeEmpty();
+	propertyMismatches.ShouldBeEmpty();
+	nullabilityErrors.ShouldBeEmpty();
+}
+```
+- We can also compare the tables against our Entities
+```csharp
+    [Test]
+public async Task DatabaseDeployed_SchemaCompared_EntityMatchesTable()
+{
+	var tables = await _sysContext.Tables.Include(t => t.Columns).AsNoTracking().ToListAsync();
+	var entities = Assembly.GetAssembly(typeof(MyEntity))!.GetTypes().Where(t => t.IsClass && t.GetInterfaces().Contains(typeof(IBaseEntity)));
+	foreach (var table in tables)
+	{
+		var entity = entities.SingleOrDefault(e => e.GetCustomAttributes<TableAttribute>().Any() && e.GetCustomAttribute<TableAttribute>()!.Name == table.Name);
+		if (entity != null)
+		{
+			foreach (var column in table.Columns)
+			{
+				entity.GetProperties().Any(p => p.Name == column.Name).ShouldBeTrue($"Column {column.Table.Name}.{column.Name} is missing in entity {entity.Name}.");
+			}
+		}
+	}
+}
+```

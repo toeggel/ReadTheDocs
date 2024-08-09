@@ -46,6 +46,7 @@ A list of tools, frameworks and more where I had good experience with or I got r
 Others recommendations
 
 - [LaunchDarkly](https://launchdarkly.com/)
+- Default Microsoft FeatureManager
 
 ## Vulnerability monitoring
 
@@ -70,4 +71,13 @@ Never used or recommended so far but maybe useful:
 ## Resilience 
 
 - [Polly](https://github.com/App-vNext/Polly)
+- Microsoft.Extensions.Http.Resilience 
+	- https://www.youtube.com/watch?v=kNzssE7Ir60
+	- See: https://learn.microsoft.com/en-us/dotnet/core/resilience/http-resilience?tabs=dotnet-cli 
 
+## OpenAPI GUI
+
+- Swagger ,but since it is no longer default starting with .NET9 we might also consider [Scalar](https://github.com/scalar/scalar)
+
+## Benchmark
+- [BenchmarkDotNet ](https://github.com/dotnet/BenchmarkDotNet )- No experience so far but looks easy to use

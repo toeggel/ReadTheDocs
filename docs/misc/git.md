@@ -1,3 +1,8 @@
+---
+tags:
+  - git
+---
+
 # Stacked Diffs / Stacked PR
 
 For larger features you often have to wait long for PR reviews. Stacked diffs address this issue to reduce waiting time for PR reviews.
@@ -107,6 +112,13 @@ Tools to support stacked diffs
 
 - Phabricator
 - Graphite
+
+# git-worktree
+
+> A git repository can support multiple working trees, allowing you to check out more than one branch at a time.
+
+See: https://git-scm.com/docs/git-worktree
+
 # Gitflow
 
 The key premise of Gitflow is that each commit to your primary branch (main) represents a release and a secondary branch, develop, is used for ongoing development. New features are built on feature branches and then reviewed and merged into the develop branch. When changes are ready to be released, a release branch is created, and when the release is complete that branch is merged into the primary branch.

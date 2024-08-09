@@ -6,6 +6,7 @@
       {
         "id": "3b7d1f1f89d26c5d",
         "type": "tabs",
+        "dimension": 80.17777777777778,
         "children": [
           {
             "id": "daf374b947739c94",
@@ -15,11 +16,87 @@
               "state": {
                 "file": "docs/cloud/azure-functions.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
-            }
+            },
+            "group": "9d14e6d4179c7b91"
           }
         ]
+      },
+      {
+        "id": "23cd84b245b3ce17",
+        "type": "split",
+        "dimension": 19.822222222222223,
+        "children": [
+          {
+            "id": "05fa598034d35ee1",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2ad50ab3287cc90d",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "docs/cloud/azure-functions.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  }
+                },
+                "group": "9d14e6d4179c7b91"
+              }
+            ]
+          },
+          {
+            "id": "bad35a19665610d6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4dd63f845da3b45f",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "docs/cloud/azure-functions.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                },
+                "group": "9d14e6d4179c7b91"
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -48,8 +125,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
-                "matchingCase": true,
+                "query": "polly",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -103,14 +180,46 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "032ad91d5cd5a9e7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/cloud/azure-functions.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "19836193a406df70",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/cloud/azure-functions.md"
+              }
+            }
+          },
+          {
+            "id": "1b5743eb7d86ab94",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -125,13 +234,19 @@
   },
   "active": "daf374b947739c94",
   "lastOpenFiles": [
-    "docs/cloud/azure-services.md",
-    "docs/misc/containerization.md",
+    "docs/architecture/tools.md",
+    "docs/architecture/resilience.md",
+    "docs/architecture/caching.md",
+    "docs/architecture/database.md",
     "docs/misc/git.md",
-    "docs/misc/github.md",
-    "docs/cloud/azure-functions.md",
-    "docs/misc/giving-feedback.md",
+    "docs/cloud/azure-services.md",
     "docs/cloud/logging.md",
+    "docs/architecture/architectural-decision-records.md",
+    "docs/architecture/architecture-documentation.md",
+    "docs/cloud/azure-functions.md",
+    "docs/misc/containerization.md",
+    "docs/misc/github.md",
+    "docs/misc/giving-feedback.md",
     "docs/misc/obsidian.md",
     "docs/backend/build-versions.md",
     "docs/backend/const-static-readonly.md",
@@ -145,13 +260,7 @@
     "docs/frontend/angular/misc.md",
     "docs/frontend/best-practices.md",
     "docs/architecture/onion.md",
-    "docs/architecture/vertical-slice.md",
-    "docs/architecture/monolith.md",
     "docs/assets/modulear-monolith-example.png",
-    "docs/frontend/snippets.md",
-    "docs/architecture/architect.md",
-    "docs/architecture/architecture.md",
-    "docs/architecture/architecture-documentation.md",
     "docs/assets/components.png",
     "docs/assets/diagram-test-2.svg",
     "docs/assets/diagram-test.svg",

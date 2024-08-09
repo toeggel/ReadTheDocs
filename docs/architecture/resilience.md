@@ -9,7 +9,7 @@ tags:
 
 # Resilient
 
-Consider for [Polly](tools.md#Resilience)
+Possible tools [Tools#Resilience](tools.md#Resilience)
 
 - Caching, Fallback, Retry, Circuit Breaker.
 

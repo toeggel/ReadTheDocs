@@ -5,9 +5,11 @@ nav:
 - Architecture:
   - 'architecture/architect.md'
   - 'architecture/architectural-decision-records.md'
+  - 'architecture/architecture-documentation.md'
   - 'architecture/architecture.md'
   - 'architecture/c4.md'
   - 'architecture/caching.md'
+  - 'architecture/components.md'
   - 'architecture/database.md'
   - 'architecture/isaqb.md'
   - 'architecture/lightweight.md'
@@ -22,17 +24,21 @@ nav:
   - 'architecture/tools.md'
   - 'architecture/unit-of-work.md'
   - 'architecture/vertical-slice.md'
+  - 'architecture/whiteboard-model.md'
 - Cloud:
   - 'cloud/logging.md'
+  - 'cloud/azure-functions.md'
   - 'cloud/azure-services.md'
 - Backend: 
-  - 'backend/build-version.md'
+  - 'backend/build-versions.md'
   - 'backend/const-static-readonly.md'
-  - 'backend/functional-approach.md'
+  - 'backend/entity-framework.md'
   - 'backend/enum-handling.md'
+  - 'backend/functional-approach.md'
   - 'backend/record-types.md'
 - Frontend:
   - 'frontend/blazor.md'
+  - 'frontend/buttons-vs-links.md'
   - 'Angular':
     - 'frontend/angular/index.md'
     - 'frontend/angular/angular-elements.md'
@@ -66,6 +72,7 @@ nav:
   - 'Obsidian': 'misc/obsidian.md'
   - 'Pitch': 'misc/pitch.md'
   - 'misc/power-point.md'
+  - 'misc/raspberry-pi.md'
   - 'REST': 'misc/rest.md'
   - 'Testing': 'misc/testing.md'
   - 'misc/validation.md'

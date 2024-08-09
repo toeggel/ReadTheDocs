@@ -43,3 +43,4 @@ The **in-memory** distributed cache isn't actually a distibuted cache but might 
 
 > [!TIP] Redis is generally recommended as a distributed cache solution
 
+> [!INFO] .NET 9 will introduce a new cache called *HybridCache*. This should replace in memory and distributed caches. It provides one interface to support both in memory and distributed caches. It is in memory by default, allows stampede protection and can be extended to be distributed by adding (i.e.registering) a distributed cache like Redis.

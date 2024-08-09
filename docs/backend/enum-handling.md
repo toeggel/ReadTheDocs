@@ -39,7 +39,7 @@ WorkGroupHelper.ToDto();
 
  ## Enum Class
 
- Doesn't work well with [EF](entityFramework.md).
+ Doesn't work well with [EF](entity-framework.md).
 
 ```cs
 public abstract class Enumeration : IComparable
