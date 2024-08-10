@@ -1,11 +1,13 @@
 # Run Locally
 
-1. install python 
+1. install python: from official site
 2. install mkdocs: `pip install mkdocs`
 3. install theme: `pip install mkdocs-material`
 3. install plugins:
     *  `pip install mkdocs-callouts`
 4. run serve.bat
+
+> [!question] Can I setup docker for this?
 
 # Deploy to github pages
 

@@ -75,6 +75,7 @@ nav:
   - 'misc/raspberry-pi.md'
   - 'REST': 'misc/rest.md'
   - 'Testing': 'misc/testing.md'
+  - 'misc/uBlock.md'
   - 'misc/validation.md'
 theme: 
   name: material
