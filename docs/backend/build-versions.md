@@ -21,9 +21,8 @@ We can store a GIT version hash or a time stamp in the assembly during build tim
             <AssemblyAttribute Include="My.Namespace.MyGitHashAttribute">
 	            <_Parameter1>$(SourceRevisionId)</_Parameter1>
             </AssemblyAttribute>
-	        <!-- Also possible with timestamp -->
-			<AssemblyAttribute Include="BuiltAtAttribute">
-				<_Parameter1>$([System.DateTime]::UtcNow.ToString("yyyyMMddHHmmss"))</_Parameter1>
+	        <!-- Also possible with timestamp -->  
+			<AssemblyMetadata Include="BuiltAt" Value="$([System.DateTime]::UtcNow.ToString('yyyy-MM-dd HH:mm:ss'))" />
 			</AssemblyAttribute>
         </ItemGroup>
     </Target>       
@@ -63,7 +62,7 @@ public class MyGitHashAttribute : Attribute
 }
 
 // usage at runtime
-var hash1 = Assembly.GetEntryAssembly.GetCustomAttribute<AssemblyMetadataAttribute>.Value;
-var hash2 = Assembly.GetEntryAssembly.GetCustomAttribute<MyGitHashAttribute>.Hash;
-var hash3 = Assembly.GetEntryAssembly.GetCustomAttribute<BuildDateAttribute>.Date;
+var hash1 = Assembly.GetEntryAssembly().GetCustomAttributes<AssemblyMetadataAttribute>.FirstOrDefault().Value;
+var hash2 = Assembly.GetEntryAssembly().GetCustomAttribute<MyGitHashAttribute>().Hash;
+var hash3 = Assembly.GetEntryAssembly().GetCustomAttribute<BuildDateAttribute>().Date;
 ```
