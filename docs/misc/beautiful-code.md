@@ -44,6 +44,10 @@ your team will handle priorities much better than if you released only one time 
 as for you, you'll get to learn more about your code and your users
 … as time spent on development tools, on scripts, on your build, is never a wasted time: it leads to high quality, clean and usable code
 
+##  System Quality
+
+> The Quality of a System is Defined by Our Ability to Change it!
+
 ## Write Pure Functions
 
 > Makes your code easier to read and easier to test.

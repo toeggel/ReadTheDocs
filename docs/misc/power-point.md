@@ -16,4 +16,6 @@ Follow these 5 point to improve your PowerPoint presentations:
         * Helps to move the focus to the speaker / presenter
 * No more then 7 objects per page
 
-Following those tips usually lead to more slides => No Problem, Maybe don't show the numbers (10 / 80) since it is exausting.
+Following those tips usually lead to more slides => No Problem, Maybe don't show the numbers (10 / 80) since it is exhausting.
+
+> **Tell** ’em **what you**’**re gonna tell** ’em, tell ’em, and then tell ’em what you’ve told ’em.

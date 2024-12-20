@@ -32,6 +32,8 @@ Know __whether__ to use a tool or technology (and only partially how)
 * Most simple (_and not most flexible_) solution for the problem to solve
 * Keep the cost of change low
 
+> We have a good architecture if the system is easy to change
+
 See: [Architekturziele](isaqb.md#Architekturziele)
 
 ## Architectural Drivers
@@ -132,6 +134,7 @@ Rapid iterations
 # Best Practices
 
 - Modularity
+	- or **Boundaries**. We need to encapsulate part of the application so that if we change something within a boundary we don't have the risk to break something outside of the boundary.
 - KISS
 - Separation of Concerns
 - Release fast, release often 

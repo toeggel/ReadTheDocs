@@ -22,7 +22,7 @@ A microservices can offer a lot of good properties such as:
 
 - High cohesion
 - Low coupling
-- Focussed on business capability
+- Focused on business capability
 - Bounded context or aggregate
 - Encapsulated data
 
@@ -34,12 +34,14 @@ Microservices excel in other areas such as:
 - Individually replaceable
 - Individually scalable
 - Heterogeneous technology stack
+- **Small, independent development teams!** (probably the biggest benefit)
 
 We should consider microservices only if we need these characteristics. 
 If we have a good modular monolith but some parts of the application need those characteristics we can always extract those and opt for a modular monolith with some additional services around it.
 
 > [!WARNING] Microservices **need** there own isolated persistence (DB)
 
+Monolith and Microservice are two extremes on an X-Axis. Usually there is a good middle ground somewhere in between.
 # Micro frontend (MFE)
 
 MFE is recommended for teams that require applications to be deployed independently. It is important to consider the cost of MFEs and decide whether it makes sense for your own teams.
