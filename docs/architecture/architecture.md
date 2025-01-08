@@ -24,7 +24,8 @@ Know __whether__ to use a tool or technology (and only partially how)
 * Structure
 * Split into components
 * Interfaces
-* Dependencies 
+* Dependencies
+* "The parts which are hard to change later"
 
 ## Goal
 
