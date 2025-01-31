@@ -132,3 +132,5 @@ It however no longer alignes with the modern, continuous delivery based developm
 In trunk based development, developers merge small, frequent updates to the primary or "trunk" branch. Idiomatic trunk based development has developers committing directly to the primary branch, however it is common for teams to use short lived feature branches to support code reviews and automated checks prior to merging, this variant can sometimes be referred to as scaled trunk based development or feature branch workflow. Releases are done directly from the primary branch and since you are already deploying on all commits to the primary branch, fixes to deployed code is treated no different from any other code change.
 
 This workflow is ideal for teams that utilise continuous deployment
+
+There are no long living branches (especially: develop, release, features, hotfix). Everything gets directly merged to the main branch and needs therefore to be release ready. Trunk Based Development allows true [Continuous Integration](continuous-integration.md).
