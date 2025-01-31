@@ -72,6 +72,7 @@ graph TD
 	Orders --> Payment.Contracts
 	Payment --> Orders.Contracts
 ```
+
 For inter-module-communication we would introduce something like a mediator (easier) or message bus (more complex) to still have a clear separation.
 
 ```mermaid

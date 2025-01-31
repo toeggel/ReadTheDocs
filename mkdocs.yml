@@ -94,11 +94,14 @@ theme:
   # Palette toggle for dark mode
   - media: "(prefers-color-scheme: dark)"
     scheme: slate
+    primary: custom
+    accent: custom
     toggle:
       icon: material/brightness-4
       name: Switch to light mode
 extra_css:
   - stylesheets/theme.css
+  - stylesheets/extra.css
 plugins:
   - search 
   - tags
@@ -107,6 +110,11 @@ markdown_extensions:
   - nl2br
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
-
+  - pymdownx.superfences:
+        # make exceptions to highlighting of code:
+      custom_fences:
+        # Mermaid diagrams
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   
