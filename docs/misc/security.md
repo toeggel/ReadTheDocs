@@ -1,3 +1,4 @@
-# Access Control
+# Security
+## Access Control
 
-![](../assets/access-control-diagram.png)
+<img src="../../assets/access-control-diagram.png" style="background-color:white" />

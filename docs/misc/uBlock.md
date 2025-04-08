@@ -2,11 +2,9 @@
 
 ## Custom uBlock filter list
 ```  
-
 ! Title:  YouTube-Cosmetic-Filters-for-uBlock-Origin - Complete version
 ! Description: Cosmetic filters to improve the search results, home section and video page.
 ! Home: https://github.com/Onsotumenh/YouTube-Cosmetic-Filters-for-uBlock-Origin
-
 
 ! Search Results
 www.youtube.com##ytd-shelf-renderer.style-scope:has(span:has-text(/For you/i))
@@ -133,5 +131,4 @@ www.postfinance.ch##.cookie_consent_banner--background
 ! Temporary
 # Hide a specific channel
 # www.youtube.com##ytd-video-renderer.ytd-item-section-renderer:has(a[href*="@digadigadoo6997"])
-
 ```

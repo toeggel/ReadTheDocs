@@ -1,4 +1,4 @@
-# Writing Beautiful Code
+# Beautiful Code
 
 > The ratio between reading code and writing code is roughly 10:1!    
 

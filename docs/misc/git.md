@@ -2,7 +2,7 @@
 tags:
   - git
 ---
-
+# Git
 # Stacked Diffs / Stacked PR
 
 For larger features you often have to wait long for PR reviews. Stacked diffs address this issue to reduce waiting time for PR reviews.

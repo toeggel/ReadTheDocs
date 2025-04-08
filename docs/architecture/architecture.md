@@ -10,7 +10,7 @@ tags:
 
 Eine Architektur braucht eine Vision (und ist auf das Business fokussiert).
 
-Sie richtet sich an Werten (von Stakeholdern) aus. Steht Time-to-market im Vordergrund, wird der Fokus auf eine gute Entwicklungsproduktivität gelegt.
+Sie richtet sich an Werten (von Stakeholdern) aus. Steht zum Beispiel Time-to-market im Vordergrund, wird der Fokus auf eine gute Entwicklungsproduktivität gelegt.
 
 Know __whether__ to use a tool or technology (and only partially how)
 
@@ -37,6 +37,10 @@ Know __whether__ to use a tool or technology (and only partially how)
 
 See: [Architekturziele](isaqb.md#Architekturziele)
 
+## Design
+
+> Architectures are defined by a set of critical decisions about how the system will meet its _quality attribute requirements_ and the trade-offs a team must make if they cannot fully satisfy the quality goals.
+
 ## Architectural Drivers
 
 Architectural Drivers are usually connected with each other and have trade-offs.
@@ -49,6 +53,9 @@ Architectural Drivers are usually connected with each other and have trade-offs.
 > _You have some service that calculates some important thing (Functional Requirement) in 3 seconds (Quality Attribute - performance). A new requirement appears, calculation is more complex and takes now 5 seconds (Performance decreased). To go back to 3 seconds another technology could be used, but there is no time for it (Business Constraint - hard deadline) and nobody has used it in the company yet (Technical Constraint - team experience). The only option to increase performance is to move the calculation to the stored procedure, which decreases maintainability and readability (Quality Attributes)._
 
 ## Grundsätze, Prinzipien
+
+> [!QUOTE]  The Only Constant in Life Is Change.
+
 ### Grundsätze (always true)
 
 * Success of the architecture is meassurd by the stakeholders (not by the architect)
@@ -73,6 +80,8 @@ Faktoren für die Frage __wann__ Architekturentscheide gemacht werden sollen.
 * was kostet es zum Rückgängig machen der Entscheidung?
 * werden zukünftige Perspektiven verhindert?
 * Ist schnelles Feedback verfügbar?
+
+The decisions are continually reevaluated by the team as their understanding of the goals of the system and its quality attribute requirements increases, based on the experience they gain through experimentation.
 
 See also: [ADR](architectural-decision-records.md)
 

@@ -55,8 +55,16 @@ DAST (Dynamic Application Security Testing)
 IAST (Interactive Application Security Testing)
 SCA (Software Composition Analysis)
 
+* Configure in repo if possible (gitlab, github, azure DevOps)
 * [mend.io](https://www.mend.io/) (formerly Whitesource) - Has established itself in the .NET world
 * [SNYK](https://snyk.io/)
+* Trivy
+* 
+
+
+## Licences
+
+- Configure in repo (e.g. Gitlab) and define which licenses are ok. Repo should provide info if other licences are detected
 
 ## Testing / Mocking
 
