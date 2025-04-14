@@ -2,6 +2,7 @@
 tags:
   - Architecture
 ---
+
 # Vertical Slice Architecture
 
 aka VSA

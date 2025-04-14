@@ -3,8 +3,11 @@ tags:
   - Documentation
   - Architecture
 ---
+# Models
 
-# Whiteboard model
+Models are never correct or represent the actual case, they answer questions. If there is no question to answer we don't need a model. They are not here to "dumb things down" (it does not necessary get more simple) they are different levels of abstractions. 
+
+## Whiteboard model
 
 Whiteboard model of the system is a high level abstraction of the system that can be drawn on a whiteboard with the idea that every member of the team (or at least seniors) can draw it from memory. This caps the complexity of the model.
 

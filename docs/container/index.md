@@ -1,11 +1,12 @@
 ---
 tags:
-  - Container
+  - container
 aliases:
   - k8s
   - OS
   - docker
 ---
+
 # Containerization
 
 > [!ABSTRACT] **Docker** is used to package and ship the app, whereas, **Kubernetes** deploys and scales the app, and **OpenShift** provides an additional layer of management and automation on top of Kubernetes, enhancing its features and simplifying its use.
@@ -21,11 +22,13 @@ aliases:
 2. image
 	- a snapshot of the software with all the dependencies needed to run it (incl. OS).
 	- executable software
-1. (actual) container
+3. (actual) container
 	- actual running software
 # Docker
 
  Docker is a containerization platform that allows developers to build and run applications in isolated containers with all their dependencies
+
+ see: [docker-cheat-sheet](docker-cheat-sheet.md)
 
 ## docker vs docker-compose
 

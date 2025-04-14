@@ -1,5 +1,9 @@
 site_name: 'A collection of best practices and stuff'
 site_url: 'https://toeggel.github.com/ReadTheDocs/index.html'
+not_in_nav:
+  game
+# exclude_docs: |
+#   game
 theme: 
   name: material
   # name: readthedocs

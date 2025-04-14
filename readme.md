@@ -30,7 +30,8 @@ For full documentation visit [mkdocs.org](https://mkdocs.org).
 * `mkdocs build` - Build the documentation site.
 * `mkdocs --version`- Print mkdocs version
 * `mkdocs help` - Print this help message.
-*  `pip show mkdocs-material` - Print material version
+* `pip show mkdocs-material` - Print material version
+* `pip install --upgrade mkdocs` - upgrade to newest mkdocs version
 
 ## Project layout
 
