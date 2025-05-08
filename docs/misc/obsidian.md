@@ -34,6 +34,14 @@ On this page I test Obsidian features. Some might work, some wont. Above this ti
 >Just a tip
 ---
 
+
+## Formatting
+
+**bold**
+*cursive*
+==highlight==
+~~invalid~~
+
 ## PlantUML
 
 ```plantuml

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/game/car-hero.md",
+                "file": "docs/container/docker-cheat-sheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "car-hero"
+              "title": "docker-cheat-sheet"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"> [!\"",
+                "query": "firefox",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -178,16 +179,17 @@
   "active": "fc00ea121f1ef9c4",
   "lastOpenFiles": [
     "docs/architecture/architect.md",
-    "docs/architecture/isaqb.md",
     "docs/game/car-hero.md",
+    "docs/architecture/database.md",
+    "docs/misc/obsidian.md",
+    "docs/container/docker-cheat-sheet.md",
+    "docs/container/index.md",
+    "docs/architecture/isaqb.md",
     "docs/frontend/css.md",
     "docs/game",
-    "docs/container/index.md",
     "docs/misc/beautiful-code.md",
-    "docs/misc/obsidian.md",
     "docs/misc/mvp.md",
     "docs/misc/misc.md",
-    "docs/container/docker-cheat-sheet.md",
     "docs/container/containerization.md",
     "docs/container",
     "RecipesState.cs",
@@ -199,7 +201,6 @@
     "docs/architecture/c4.md",
     "docs/architecture/caching.md",
     "docs/architecture/components.md",
-    "docs/architecture/database.md",
     "docs/architecture/onion.md",
     "docs/architecture/hexagonal-architecture.md",
     "docs/architecture/microservice.md",
