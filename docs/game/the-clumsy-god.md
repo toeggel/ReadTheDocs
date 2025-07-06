@@ -10,7 +10,7 @@ tags:
 Alternative names:
 
 - **Kinda Godlike**
--  Chosen, by Mistake
+- Chosen, by Mistake
 - The Young God
 - Divine Oops
 
@@ -19,7 +19,6 @@ Alternative names:
 A primitive civilization prays for a god to protect them — and by some cosmic accident, you, an untested, unfinished god, are chosen. The darkness is real. The enemies are many. And your powers?
 Unstable. Incomplete. Sometimes hilarious.
 Your job: hold back the hordes of darkness across a series of escalating battles — using divine powers that often misfire or behave unexpectedly.
-
 
 ### Gameplay Structure:
 
@@ -72,7 +71,6 @@ Core Mechanic: You don’t control them precisely — they are:
 
 You learn how to predict and mitigate them over runs.
 
-
 **Examples:**
 
 “Shield of Rebirth” – Revives fallen allies, but may also resurrect enemies.
@@ -122,9 +120,7 @@ Unlock alternate gods: “The Sleeping Child,” “The Hungry Flame,” “The 
 - Auto Chess / Super Auto Pets (hands-off combat)
 - Cult of the Lamb (faith, style, dark humor)
 
-
 ## List of Ideas
-
 
 - God power misfire e.g:
 	- simple fire for cooking or light turns into infernos
@@ -137,3 +133,6 @@ Unlock alternate gods: “The Sleeping Child,” “The Hungry Flame,” “The 
 - A "bar meter" which gives power to use miracles. the lower the bar the higher chance it misfires. There are critical levels where misfire is almost certain.
 - New miracles are unknown (or at least the concrete outcome) until cast once. e.g. a new fire miracle might just produce a fire but it might also be a volcano miracle.
 - If a miracle gets used more often it's less prone to misfire.
+- God created worlds and suns, they have generally too much power to guide a civilization
+  - "Creating sun" can be used as "fire" if tuned down.
+  - "Creating planet" can create land or be used to throw rocks. 

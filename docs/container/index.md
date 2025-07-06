@@ -24,6 +24,7 @@ aliases:
 	- executable software
 3. (actual) container
 	- actual running software
+
 # Docker
 
  Docker is a containerization platform that allows developers to build and run applications in isolated containers with all their dependencies

@@ -20,4 +20,4 @@ Messages in queues are ordered and timestamped on arrival.
 
 Topics can have multiple, independent subscriptions, which attach to the topic and otherwise work exactly like queues from the receiver side.
 
-![service-bus-queeu](../assets/about-service-bus-topic.png "service-bus-queue")
+![service-bus-queue](../assets/about-service-bus-topic.png "service-bus-queue")

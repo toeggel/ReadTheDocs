@@ -130,6 +130,8 @@ The game starts as the most simple imaginable platformer. Running strait to reac
     - Falling spikes
     - vertical wall
     - water
+    - ice -> player runs faster
+    - mud -> player runs slower
     - ...
   - Maybe dude gets also new abilities or can place "platforms"
 - "Survival of the fittest": Dude can do nothing exept running. 
@@ -143,3 +145,5 @@ The game starts as the most simple imaginable platformer. Running strait to reac
     - ...
     - Such an ability might only last against one obstacle (e.g. armor lets you run through one spike)
   - Architect gets random obstacles.
+  - **Multiplayer**
+    - One needs to run from left to right, the other from right to left. After each run the player can place a obstacle.
