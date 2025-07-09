@@ -3,7 +3,6 @@ tags:
   - Architecture
 ---
 
-
 # Hexagonal
  
  aka: Ports and Adapters

@@ -5,7 +5,7 @@ tags:
 
 # Survival of the fittest Platformer
 
-> Plantformer where in one round you have to reach the goal and in the next round you have to prevent your previous run from reaching the goal.
+> Platformer where in one round you have to reach the goal and in the next round you have to prevent your previous run from reaching the goal.
 
 Alternative names:
 

@@ -8,6 +8,27 @@ tags:
 
 # Architecture assessment
 
+## Analyze by Risk
+
+**Risk Matrix:**
+
+|                      |          |     |        |      |           |
+| -------------------- | -------- | --- | ------ | ---- | --------- |
+| Probability \ Impact | Very Low | Low | Medium | High | Very High |
+| Very High            | 🟡       | 🟠  | 🟠     | 🔴   | 🔴        |
+| High                 | 🟢       | 🟡  | 🟠     | 🔴   | 🔴        |
+| Medium               | 🟢       | 🟡  | 🟡     | 🟠   | 🔴        |
+| Low                  | 🟢       | 🟢  | 🟡     | 🟠   | 🔴        |
+| Very Low             | 🟢       | 🟢  | 🟢     | 🟡   | 🟠        |
+
+**Legend:**
+- 🔴 - Critical
+- 🟠- Severe
+- 🟡- Moderate
+- 🟢- Sustainable
+
+Analyze different "components" (e.g. modules, architecture, code, DB) and rate risks based on probability and impact. Get a general "result".  Takle components based on there result (i.e. Critical (🔴) needs to be addressed where Sustainable (🟢) might stay,)
+
 ## Possible Process (as experienced for defining software maturity level)
 
 > [!TIP] Talk with people!
