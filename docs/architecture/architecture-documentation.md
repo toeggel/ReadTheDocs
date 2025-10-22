@@ -218,5 +218,9 @@ tags:
 	7. Short paragraph describing each decision. Include a date of the decision?
 	8. Technical people only
 
+# Markdown example
+
+- [system-architecture-template](examples/system-architecture-template.md)
+
 # Related
 - [architectural-decision-records](architectural-decision-records.md)

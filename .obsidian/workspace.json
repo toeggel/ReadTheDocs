@@ -13,15 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/game/index.md",
+                "file": "docs/ai/examples/agent-promt-template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "agent-promt-template"
+            }
+          },
+          {
+            "id": "d4cbea85dd1616e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/architecture/examples/adr-2-template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "adr-2-template"
+            }
+          },
+          {
+            "id": "269759ca3ec3344a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ai/examples/software-architect-prompt.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "software-architect-prompt"
+            }
+          },
+          {
+            "id": "5ef7276c30c05fad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ai/examples/code-guidelines.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "code-guidelines"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -53,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cert",
+                "query": "kql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,6 +209,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -175,34 +219,38 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e7aaa39c8b8bdf14",
+  "active": "5ef7276c30c05fad",
   "lastOpenFiles": [
+    "docs/ai/examples/software-architect-prompt.md",
+    "docs/ai/examples/code-guidelines.md",
+    "docs/ai/examples/agent-promt-template.md",
+    "docs/ai/system-prompt.md",
+    "docs/ai/index.md",
+    "docs/misc/beautiful-code.md",
+    "readme.md",
+    "docs/index.md",
+    "docs/architecture/azure.md",
+    "docs/architecture/architecture-documentation.md",
+    "docs/architecture/architectural-decision-records.md",
+    "docs/architecture/examples/system-architecture-template.md",
+    "docs/architecture/architect.md",
+    "docs/architecture/examples/adr-2-template.md",
+    "docs/architecture/examples/adr-1-template.md",
+    "docs/architecture/examples",
+    "docs/ai/examples",
+    "docs/architecture/architecture-assessment.md",
+    "docs/ai/project setup/Untitled.md",
+    "_templates/pattern-tmpl.md",
+    "docs/templates",
+    "docs/Untitled.md",
+    "docs/ai/project setup",
+    "docs/cloud/logging.md",
+    "docs/game/index.md",
     "docs/game/fog-of-war.md",
     "docs/game/game-ideas.md",
-    "docs/game/index.md",
     "docs/container/docker-cheat-sheet.md",
     "docs/architecture/architecture.md",
-    "docs/architecture/architecture-assessment.md",
-    "docs/architecture/architecture-documentation.md",
     "docs/architecture/components.md",
-    "docs/architecture/architectural-decision-records.md",
-    "docs/architecture/architect.md",
-    "docs/architecture/c4.md",
-    "docs/game/the-clumsy-god.md",
-    "docs/game/survival-of-the-fittest-platformer.md",
-    "docs/game/game-design.md",
-    "docs/game/death-by-a-thousand-microtransactions.md",
-    "docs/game/car-hero.md",
-    "docs/architecture/service-bus.md",
-    "docs/architecture/systematic-software-architecture.md",
-    "docs/architecture/self-contained-systems.md",
-    "docs/architecture/resilience.md",
-    "docs/architecture/patterns.md",
-    "docs/architecture/onion.md",
-    "docs/architecture/monolith.md",
-    "docs/architecture/models.md",
-    "docs/architecture/misc.md",
-    "docs/architecture/microservice.md",
     "docs/game",
     "docs/container",
     "RecipesState.cs",
@@ -210,19 +258,15 @@
     "docs/ai",
     "docs/assets/access-control-diagram.png",
     "docs/stylesheets/mermaidjs.js",
-    "docs/stylesheets/extra.css",
     "docs/assets/hexagonal-architecture-2.png",
     "docs/assets/hexagonal-architecture-2.png",
     "docs/assets/hexagonal-architecture.png",
     "docs/assets/monolith_example_project_structure.png",
     "Pasted image 20241206110804.png",
     "Pasted image 20241206110735.png",
-    "docs/assets/Access-Control-Diagram.png.crdownload",
-    "docs/business",
     "docs/assets/modulear-monolith-example.png",
     "docs/assets/components.png",
     "docs/assets/diagram-test-2.svg",
-    "docs/backend",
     "Untitled.canvas"
   ]
 }

@@ -11,6 +11,7 @@ Before introducing a new framework or library (which probably does some magic), 
 > If you don’t actively fight for simplicity in software, complexity will win.
 > 
 > …and it will suck.
+
 ### Code Traversal  
 
 > When the code traversal is easy, the code is simple to follow.
@@ -29,7 +30,6 @@ How easy it is to navigate through the code? Is it easy to spot where the API fu
 ## Cohesion
 
 > Stuff that changes together should live together (e.g.: achieved with vertical slicing)
-
 
 ## Modularity
 
@@ -116,4 +116,3 @@ It has forms, header, paragraphs, ..
 Usually we write comments when the intent of the code is not clear. Instead of writing comments we should ask ourselves => `Can I write the code better?`
 
 > Comments are often lies.
-
