@@ -55,6 +55,16 @@ public class Edit {
 }
 ```
 
+## Sharing Code
+
+Often the question arise about how code can be shared in a VSA. There are multiple approaches to it.
+First of all we need to ask us *why* we want to share code before we answer the *how*.
+**Why:**
+- **Cross-cutting-concern:** Have a module for it.
+- **Core concern:** Have a module for it.
+- **Domain concern:** Consider creating a domain module for it. This might slightly break the VSA principles but makes use of domain centric architecture ideologies.
+- **Others:** Consider duplication.
+
 ## Comparison to other architectures
 
 In other architectures we often see the problem that services for single entities such as a XYService grows to immense size but in the end a GetXY endpoint only relies on the GetXY method of the service which only relies on the GetXY method of the repository and so on. A single change on the repository then leads to an indirect change on all XY features (since XYRepository change -> XYService change -> XYControllers change) and therefore to possible bug in all parts of that feature. This reduces the effort for regression tests.

@@ -13,3 +13,8 @@ It is similar to the classic n-tier layer architecture but more complex. All the
 > Also known as the vegetable architecture - you know, the kind that makes you cry when you look at it.
 
 As with other layered architectures, the focus is on the **separation of technical** concerns.
+
+# Related
+
+[domain-centric-architecture](domain-centric-architecture.md)
+[hexagonal-architecture](hexagonal-architecture.md)
