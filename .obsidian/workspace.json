@@ -235,15 +235,17 @@
   },
   "active": "d1ae69885aef32c7",
   "lastOpenFiles": [
+    "docs/performance-testing.md",
+    "docs/assets/chart-load-test-types-overview.png",
     "docs/ai/examples/copilot-setup/plan.agent.md",
+    "docs/ai/examples/copilot-setup/frontend.instructions.md",
+    "docs/ai/examples/copilot-setup/architect.agent.md",
+    "docs/ai/examples/copilot-setup/api.prompt.md",
+    "docs/ai/examples/copilot-setup",
     "docs/ai/examples/agent-promt-template.md",
     "docs/ai/index.md",
-    "docs/ai/examples/copilot-setup/architect.agent.md",
     "docs/ai/examples/software-architect-prompt.md",
     "docs/ai/examples/code-guidelines.md",
-    "docs/ai/examples/copilot-setup",
-    "docs/ai/examples/copilot-setup/api.prompt.md",
-    "docs/ai/examples/copilot-setup/frontend.instructions.md",
     "docs/architecture/hexagonal-architecture.md",
     "docs/architecture/onion.md",
     "docs/architecture/domain-centric-architecture.md",
@@ -260,8 +262,6 @@
     "docs/architecture/vertical-slice.md",
     "docs/architecture/monolith.md",
     "docs/ai/system-prompt.md",
-    "docs/misc/beautiful-code.md",
-    "readme.md",
     "docs/architecture/examples",
     "docs/ai/examples",
     "docs/templates",
@@ -280,7 +280,6 @@
     "Pasted image 20241206110735.png",
     "docs/assets/modulear-monolith-example.png",
     "docs/assets/components.png",
-    "docs/assets/diagram-test-2.svg",
     "Untitled.canvas"
   ]
 }
