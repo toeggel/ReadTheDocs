@@ -1,2 +1,2 @@
-py -m mkdocs serve
+mkdocs serve
 pause

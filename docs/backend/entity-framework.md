@@ -33,4 +33,3 @@ var blogs = context.Blogs
 	.AsSplitQuery() // <== 👁️
 	.ToList();
 ```
-- ````

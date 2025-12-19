@@ -22,6 +22,7 @@ tags:
 | Very Low             | 🟢       | 🟢  | 🟢     | 🟡   | 🟠        |
 
 **Legend:**
+
 - 🔴 - Critical
 - 🟠- Severe
 - 🟡- Moderate

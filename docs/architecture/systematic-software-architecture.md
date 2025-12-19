@@ -9,6 +9,7 @@
 # Functional Requirements
 
 Use-Cases / User Stories
+
 - User Stories besser für kleinere Projekte
 - Use-Cases oder Epics für grössere
 
@@ -18,12 +19,14 @@ Umsysteme identifizieren.
 # Non-Functional Requirements
 
 The Big 4
+
 - Performance
 - Availability
 - Operability
 - Maintainability
 
 Make the number graspable / concrete (important: maximum). Important Quality Attribute
+
 - How many? 1000?
 - How many per time frame? 280 events / seconds?
 
@@ -33,19 +36,21 @@ Make the number graspable / concrete (important: maximum). Important Quality Att
 - The things I'm afraid of or I don't know or understand
 - Pain points of the previous systems
 
+-
 
 - Which are the complex use-cases?
 - Which are the use-cases with high throughput?
 
-
 # Define the architecture
 
 Follow the dominant UC
+
 - Build sequence diagram and flow based on the UC (step by step) to build the architecture.
 
 Inter-process communication needs a good reason to be introduced! They are expensive and responsible for performance issues.
 
 How to split processes
+
 - Bounded Context
 - Types of load (interactive, batch)
 - Availability
@@ -84,9 +89,11 @@ In this case we can get rid of Architecture A because it does not fulfill the re
 # Notes
 
  Wir müssen die kritischen (dominant) Use-Cases betrachten
+ 
  - 
 
 Risiko basierte Architektur
+
 - Höchstes Risiko zuerst beseitigen
 
 Ich muss die Domäne gut genug verstehen um den Kunden (e.g. BE, BA) zu challenges

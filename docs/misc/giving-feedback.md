@@ -13,10 +13,12 @@
 ## Notes
 
 Spontaneous Feedback (e.g. after a Meeting)
+
 * What can I do differently? Why?
 * What could I have done better?
 
 **SBIS**
+
 - **S**ituation
     - Give concrete context / situation
 - **B**ehaviour
@@ -29,6 +31,7 @@ Spontaneous Feedback (e.g. after a Meeting)
 
 **Perparation (for difficult feedbacks)**
 **My Goals & Intentions**
+
 - What do I want to achieve? What is the key message?
 - What outcome do I expect
 - Do I have all information
@@ -36,17 +39,20 @@ Spontaneous Feedback (e.g. after a Meeting)
 - Setting and timing.
 
 **Our Relationship**
+
 - my role
 - current relationship
 - biased history?
 - haveing my mood and attitude in check
 
 **Vis-a-Vis expectations**
+
 - Whats the current mood and situation of my vis-a-vis (let them at least mentally prepare for it)
 - What is the conversation about
 - Are the intendet goals of us tow in conflic or in congruence?
 
 **5 phases (plus)**
+
 - plus
     - **Context**: invite and inform (clearly and) transparently why I want to talk and whats the **core theme**
 - Phase 1 (key, we have to start well!)
