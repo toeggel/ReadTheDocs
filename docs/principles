@@ -1,0 +1,16 @@
+# Principles
+
+## CAP Theorem
+
+A theorem about distributed computing systems that states that a computer system can at best, provide two of the three properties from the following list:
+
+**Consistency (C):** All clients see the same data at the same time no matter which node they connect to.
+**Availability (A):** Any client which requests data gets a (non-error) response even if some of the nodes are down..
+**Partition Tolerance (P):** The system continues to operate despite network failures (between nodes). 
+
+|           | CA               | CP                                              | AP                                                  |
+| --------- | ---------------- | ----------------------------------------------- | --------------------------------------------------- |
+| Sacrifice |                  | Availability                                    | Consistency                                         |
+| Use Case  | Single-node only | Strong consistency.<br>Banks, financial systems | Low latency.<br>Consistency requirement is not high |
+
+If you go with microservices you already chose Partition Tolerance and can therefore only choose either Availabilty or Consistency.
