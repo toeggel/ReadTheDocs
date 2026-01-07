@@ -14,3 +14,8 @@ A theorem about distributed computing systems that states that a computer system
 | Use Case  | Single-node only | Strong consistency.<br>Banks, financial systems | Low latency.<br>Consistency requirement is not high |
 
 If you go with microservices you already chose Partition Tolerance and can therefore only choose either Availabilty or Consistency.
+
+## Misc
+
+- Do you want fast answer or correct answer?
+- Chatty applications will fail at scale.
