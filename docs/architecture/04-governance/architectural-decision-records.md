@@ -40,8 +40,8 @@ ADRs können auch im selben Repo zum Code eingecheckt werden. So können ADRs be
 ## Template Example
 
 See: 
-- [adr-1-template](examples/adr-1-template.md)
-- [adr-2-template](examples/adr-2-template.md)
+- [adr-1-template](../07-examples/adr-1-template.md)
+- [adr-2-template](../07-examples/adr-2-template.md)
 
 ##  ADR Example
 ### Use Markdown Architectural Decision Records
