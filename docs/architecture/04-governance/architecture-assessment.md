@@ -67,7 +67,7 @@ Analyze different "components" (e.g. modules, architecture, code, DB) and rate r
 		- UX
 		- API versioning
 		- Licencing
-		- Dependency Management / security (see: [Vulnerability monitoring](tools.md#Vulnerability%20monitoring))
+		- Dependency Management / security (see: [Vulnerability monitoring](../06-tools/tools.md#Vulnerability%20monitoring))
 5. Report
 	- Write everything down that was discussed, decided, identified, 
 

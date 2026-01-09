@@ -12,4 +12,4 @@ Merge to main at least daily. This means, we cannot (always) merge a full featur
 - Branch by abstractions 
 	- We create abstractions for existing logic and use the old logic. We then migrate one by one to new logic by simple switch the implementation behind the abstraction. 
 - Feature Flags
-	- See: [Feature toggling](../architecture/tools.md#Feature%20toggling))
+	- See: [Feature toggling](../architecture/06-tools/tools.md#Feature%20toggling))
