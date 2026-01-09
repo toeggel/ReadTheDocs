@@ -1,1 +1,1 @@
-- 2D character in 3D world (imagin Luci from Disenchantment)
+- 2D character in 3D world (imagine Luci from Disenchantment)
