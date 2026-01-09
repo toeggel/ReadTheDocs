@@ -9,7 +9,7 @@ tags:
 
 # Resilient
 
-Possible tools [Tools#Resilience](tools.md#Resilience)
+Possible tools [Tools#Resilience](../06-tools/tools.md#Resilience)
 
 - Caching, Fallback, Retry, Circuit Breaker.
 
