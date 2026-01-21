@@ -1,1 +1,4 @@
-- 2D character in 3D world (imagin Luci from Disenchantment)
+- 2D character in 3D world (imagine Luci from Disenchantment)
+- Play as a Genie
+- Play as a "screw up"
+- Play as someone who is always unlucky / lucky (influences the luck?)
