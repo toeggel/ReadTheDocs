@@ -2,3 +2,4 @@
 - Play as a Genie
 - Play as a "screw up"
 - Play as someone who is always unlucky / lucky (influences the luck?)
+- Buble wrap (the bubbeling)
