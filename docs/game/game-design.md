@@ -17,6 +17,7 @@ e.g.:
     - Craft it (e.g. new weapons or gears) and for this you need to find specific items
       - instead of "you need 3 points in defensive before you can learn _shield block_" you need to find 3 specific items and a trainer
 - Maybe even don't attach the difficulty to a setting option. Find an amulet that you can "turn on" which makes enemies easier or find spells that increases your HP.
+- "Do something weird -> unlock something unexpected". e.g.: Stand still in danger -> unlock "calm under pressure" or Fail repeatedly -> unlock a unique mechanic
 
 ## Allow Experimenting
 
