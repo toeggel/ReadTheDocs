@@ -1,0 +1,138 @@
+# Game Concept Summary
+
+## Title
+
+WIP - Cave-dwelling animals
+
+## High-Level Pitch
+
+**Guide a small cave-dwelling tribe, earn their faith to gain divine powers, and reshape the cave to keep them safe and thriving.**
+
+## Basic Genre
+
+**God game / creature care / management**
+
+## Design Goals
+
+- Keep the game simple enough for a solo hobby developer to build in Godot
+- Focus on a small, replayable core loop rather than handcrafted levels
+- Create a game that feels alive through simulation and progression
+- Keep advanced AI systems optional for future expansion
+
+## Core Fantasy
+
+The player is a small cave deity watching over a fragile tribe of tiny creatures.  
+The creatures live in a compact cave system and depend on the player for shelter, food, safety, and guidance.  
+As the tribe grows more secure and prosperous, they generate **faith**, which becomes the resource used to unlock stronger divine powers.
+
+## Core Gameplay Loop
+
+1. Creatures move through and live in the cave
+2. The player helps them survive by shaping the environment and protecting them
+3. Successful care generates faith
+4. Faith is spent on divine powers
+5. Stronger powers allow the player to expand and improve the cave
+6. The tribe becomes safer, larger, and more prosperous over time
+
+## Player Actions
+
+The player can:
+
+- Open or reshape cave passages
+- Create safe resting areas
+- Protect creatures from hazards
+- Provide light, warmth, or food
+- Expand the cave gradually using faith
+- Improve the living conditions of the tribe
+
+## Progression
+
+The game should start small and gradually grow in scope.
+
+### Early Game
+- A few cave chambers
+- A small tribe
+- Basic creature needs
+- Simple divine powers
+
+### Mid Game
+- More cave areas to shape
+- New hazards and environmental challenges
+- More creature types or behaviors
+- Stronger and more specialized divine powers
+
+### Late Game
+- Larger cave sections
+- More complex interactions between creatures and the environment
+- Greater freedom to shape the cave
+- A more established and thriving tribe
+
+## Replayability
+
+Replayability should come from variation in the starting conditions and the way the cave develops.
+
+Possible sources of replayability:
+
+- Different cave layouts
+- Random events
+- Different starting conditions
+- Different creature traits
+- Different power choices
+- Different environmental challenges
+
+## Art Direction
+
+The visual style should stay minimalistic and manageable.
+
+### Suggested Style
+- Simple cave shapes and silhouettes
+- Soft glowing effects for life, faith, and divine power
+- Limited color palette
+- Small creature sprites or abstract creature shapes
+- Environmental changes shown through lighting and simple visual effects
+
+### Overall Feel
+- Atmospheric
+- Quiet
+- Living
+- Mysterious
+- Small-scale but meaningful
+
+## Scope Considerations
+
+This concept should stay within a hobby-project scope.
+
+### Keep Simple
+- One main cave system or only a few small maps
+- Few creature types
+- Few divine powers at first
+- Minimal UI
+- No need for handcrafted levels
+- No complex story requirements
+
+### Optional Future Expansion
+These ideas should be treated as optional extensions, not MVP requirements:
+
+- Boids / flocking for creature movement
+- Pheromone trails for route discovery
+- Utility AI for creature decision-making
+- More creature species
+- Additional cave biomes
+- More divine powers
+
+## MVP Recommendation
+
+The first playable version should focus on:
+
+- A small cave map
+- A handful of creatures
+- Basic needs like hunger, safety, and trust
+- Faith as the main progression resource
+- 3–5 simple divine powers
+- A short but satisfying growth loop
+
+## Summary
+
+This game concept is a small-scale god game about protecting and guiding a cave tribe.  
+Its strength comes from a simple but expressive simulation loop, a strong atmosphere, and gradual progression through faith and divine powers.  
+It is designed to remain achievable for a solo developer working in free time.
