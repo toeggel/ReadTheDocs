@@ -136,3 +136,53 @@ The first playable version should focus on:
 This game concept is a small-scale god game about protecting and guiding a cave tribe.  
 Its strength comes from a simple but expressive simulation loop, a strong atmosphere, and gradual progression through faith and divine powers.  
 It is designed to remain achievable for a solo developer working in free time.
+
+# Movement
+
+## Core movement concept
+
+The creatures are **surface-dwelling cave animals** that naturally move by:
+
+- crawling along floors  
+- climbing walls  
+- hanging from rough ceilings or roots  
+- dropping down short vertical spaces  
+
+Instead of moving like tiny humans, they feel adapted to the cave itself.
+
+## Crossing gaps
+
+Small gaps can be crossed automatically with short leaps.
+
+Larger gaps are handled through **temporary organic bridges**, such as:
+
+- silk threads  
+- slime paths  
+- grown roots  
+- living creature chains  
+
+A creature can discover a blocked route, spend time creating a crossing, and then allow others to use that path afterward.
+
+## Gameplay effect
+
+This creates a cave that feels:
+
+- alive  
+- changing  
+- inhabited  
+- believable  
+
+because the creatures are not just living in the cave —  
+they are gradually **shaping it themselves**.
+
+## Why it fits the game
+
+It supports the core fantasy of being a cave deity because the player is not controlling every movement directly.
+
+Instead the player:
+
+- protects the tribe  
+- enables safe expansion  
+- influences where the creatures can thrive  
+
+while the creatures make the cave feel like a living ecosystem.
