@@ -13,3 +13,7 @@
 
 - Mini Metro / Mini Motorways
 - Bad North
+- Frameless desktop idle "game"
+  - Desktop Pet
+  - Cozy Fisher
+  - Cozy fire camp .. something
