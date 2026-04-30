@@ -18,7 +18,10 @@ The design goal is to create something that feels alive even when ignored, but r
   A small rotating sphere shows shifting climates, lights, and biomes. Inside, ecosystems, civilizations, and environmental systems interact and evolve.
 
 - **Hive-like structure**  
-  A compact hive visually changes in size, density, and activity. Inside, a cellular network manages growth, resource flow, and organized behavior patterns.
+  A compact hive visually changes in size, density, and activity. Inside, a cellular network manages growth, resource flow, and organized behavior patterns. e.g. Ants or Bees.
+
+- **Living solar colony**  
+  A small asteroid orbits a quiet sun and slowly grows into a network of colonies, moons, and planets. Inside each world, hidden systems such as mining, ecosystems, and population growth shape the evolving outer solar system the player calmly watches over.
 
 - **Forest or tree organism**  
   A single living organism changes seasonally and structurally over time. Inside, roots, growth decisions, and ecological relationships drive its expansion.
