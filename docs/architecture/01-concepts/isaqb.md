@@ -127,7 +127,7 @@ Clustering von Anforderungen (Funktionales Clustering / Fachlicher Schnitt) nach
 
 ## ADR (Architectural Decision Records)
 
-See: [architectural-decision-records](architectural-decision-records.md)
+See: [architectural-decision-records](../04-governance/architectural-decision-records.md)
 
 > [!TIP] Entwurfsentscheidungen systematisch dokumentieren
 

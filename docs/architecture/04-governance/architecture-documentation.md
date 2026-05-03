@@ -220,7 +220,7 @@ tags:
 
 # Markdown example
 
-- [system-architecture-template](examples/system-architecture-template.md)
+- [system-architecture-template](../07-examples/system-architecture-template.md)
 
 # Related
 - [architectural-decision-records](architectural-decision-records.md)

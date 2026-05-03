@@ -17,7 +17,7 @@ Code changes (add, remove, change) often have impact on one (main) slice and hel
 - Vertical slice architecture can be combine with other architectures like Layered or [Onion](onion.md) and works very well with the [Lightweight Architecture](lightweight.md) by applying those architectures within a single slice.
 	- Different slices may implement different architectural flavors. 
 - Works well together with a "task based UI"
-- Vertical slice architecture has some similarities to [CQRS](patterns.md#CQRS%20Pattern).
+- Vertical slice architecture has some similarities to [CQRS](../03-patterns-and-ops/patterns.md#CQRS%20Pattern).
 - CQRS is a good pattern to use within VSA (Why? How?)
 
 Consider to take the vertical slice up to the UI. On one view there is one query request performed. The result of the query has all the data necessary for that view. The query should therefore not return an entity but a specific model. In this case, inner classes can be useful.

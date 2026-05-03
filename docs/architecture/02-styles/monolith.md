@@ -6,7 +6,7 @@ tags:
 
 # Monolith
 
-A **modular monolith** has many overlapping advantages with [microservices](microservice.md). However, in a monolith architecture it is a lot easier to bypass the modularity and therefore creating a big ball of mud. One way to enforce the modularity is by writing architectural [fitness functions](architecture.md#Fitness%20tests).
+A **modular monolith** has many overlapping advantages with [microservices](microservice.md). However, in a monolith architecture it is a lot easier to bypass the modularity and therefore creating a big ball of mud. One way to enforce the modularity is by writing architectural [fitness functions](../01-concepts/architecture.md#Fitness%20tests).
 
 > The hardest thing about building modular monoliths is keeping them modular.
 

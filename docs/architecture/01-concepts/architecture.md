@@ -83,7 +83,7 @@ Faktoren für die Frage __wann__ Architekturentscheide gemacht werden sollen.
 
 The decisions are continually reevaluated by the team as their understanding of the goals of the system and its quality attribute requirements increases, based on the experience they gain through experimentation.
 
-See also: [ADR](architectural-decision-records.md)
+See also: [ADR](../04-governance/architectural-decision-records.md)
 
 ### Anti-Pattern
 
