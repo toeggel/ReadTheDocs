@@ -42,5 +42,3 @@
 ## Implementatio (.net)
 
 This official dotnet nuget enables the implementation of a nice api-versioning: [https://github.com/dotnet/aspnet-api-versioning](https://github.com/dotnet/aspnet-api-versioning) with good documentation [https://github.com/dotnet/aspnet-api-versioning/wiki](https://github.com/dotnet/aspnet-api-versioning/wiki)
-
-        - 
