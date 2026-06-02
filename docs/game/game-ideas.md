@@ -8,6 +8,10 @@
 - A corn that needs to avoid the sun because otherwise it turns into popcorn
 - Sushi syndicate, food delivery syndicat, beehive syndicate
 - Beehive sim in a post-apocalyptic world. gather nectar do grow hive and pollen to reinroduce nature.
+- Wizardified game
+  - Wizard Courier
+  - Wizard Logistics (mini metro / motorways like)
+  - Wizard smuggler (magical contraband needs to be delivered by a wizard)
 
 # Game inspirations
 
