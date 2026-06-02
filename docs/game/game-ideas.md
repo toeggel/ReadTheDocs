@@ -9,9 +9,14 @@
 - Sushi syndicate, food delivery syndicat, beehive syndicate
 - Beehive sim in a post-apocalyptic world. gather nectar do grow hive and pollen to reinroduce nature.
 - Wizardified game
+  - Wizard Fisher
   - Wizard Courier
+    - Wizard Smuggler (magical contraband needs to be delivered by a wizard)
   - Wizard Logistics (mini metro / motorways like)
-  - Wizard smuggler (magical contraband needs to be delivered by a wizard)
+  - Wizard Chef
+  - Wizard Gardener
+  - Wizard Golf
+  - 
 
 # Game inspirations
 
