@@ -8,6 +8,10 @@ tags:
 Context is king! 💩 In -> 💩 Out
 Different Model have different outcome -> try out
 
+## Workflows
+
+See [AI Workflows](workflows.md) for a short, practical guide.
+
 ## Prompting
 
 Pillars
@@ -32,9 +36,9 @@ Pillars
 │     └─ *.agent.md
 └─ AGENTS.md
 ```
-see example folder for examples.
+See [examples](examples) for examples.
 
-We can call prompts in the chat window by using `/codequlaity check for this`
+We can call prompts in the chat window by using `/codequality check for this`
 or using agents by selecting our custom agents
 
 ###  Image

@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1124aff2977f324d",
+        "id": "9b415e6adb959b55",
         "type": "tabs",
         "children": [
           {
-            "id": "9d5753de30e2d9d6",
+            "id": "ca976b6ef1926986",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/architecture/systematic-software-architecture.md",
+                "file": "docs/ai/workflows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "systematic-software-architecture"
-            }
-          },
-          {
-            "id": "92d9146b9381e3c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/architecture/domain-centric-architecture.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "domain-centric-architecture"
+              "title": "workflows"
             }
           }
         ]
@@ -190,15 +176,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9d5753de30e2d9d6",
+  "active": "ca976b6ef1926986",
   "lastOpenFiles": [
+    "docs/ai/system-prompt.md",
+    "docs/ai/workflows.md",
+    "docs/ai/index.md",
+    "AGENTS.md",
+    "docs/misc/string-comparison.md",
+    "docs/game/idle-desktop-garden.md",
+    "docs/game/cozy-dual-layer-idler.md",
+    "docs/backend/api-versioning.md",
+    "docs/game/tiny-lighthouses.md",
+    "docs/game/the-last-beekeeper.md",
+    "docs/game/cave-dwelling-animals.md",
+    "docs/game/beehive.md",
+    "docs/architecture/systematic-software-architecture.md",
+    "docs/principles",
     "docs/architecture/azure.md",
     "docs/architecture/architecture-assessment.md",
-    "docs/ai/system-prompt.md",
     "docs/ai/examples/agent-promt-template.md",
     "docs/ai/examples/copilot-setup/architect.agent.md",
     "docs/ai/examples/copilot-setup/api.prompt.md",
-    "docs/ai/index.md",
     "examples.md",
     "docs/backend/entity-framework.md",
     "docs/misc/obsidian.md",
@@ -207,19 +205,8 @@
     "docs/misc/git.md",
     "docs/misc/decision-making.md",
     "docs/misc/continuous-integration.md",
-    "docs/misc/clean-code.md",
-    "docs/misc/performance-testing.md",
-    "docs/architecture/architecture-cheat-sheet.md",
-    "docs/architecture/architecture-documentation.md",
-    "docs/architecture/domain-centric-architecture.md",
-    "docs/architecture/vertical-slice.md",
-    "docs/architecture/monolith.md",
-    "docs/architecture/architecture.md",
     "docs/assets/chart-load-test-types-overview.png",
-    "docs/ai/examples/copilot-setup/plan.agent.md",
-    "docs/ai/examples/copilot-setup/frontend.instructions.md",
     "docs/ai/examples/copilot-setup",
-    "docs/ai/examples/software-architect-prompt.md",
     "docs/architecture/examples",
     "docs/ai/examples",
     "docs/templates",
@@ -228,7 +215,6 @@
     "docs/container",
     "RecipesState.cs",
     "docs/ai/system-prompts",
-    "docs/ai",
     "docs/assets/access-control-diagram.png",
     "docs/assets/hexagonal-architecture-2.png",
     "docs/assets/hexagonal-architecture-2.png",
