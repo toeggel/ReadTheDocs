@@ -16,12 +16,18 @@
   - Wizard Chef
   - Wizard Gardener
   - Wizard Golf
-  - 
+  -
 
 # Game inspirations
 
 - Mini Metro / Mini Motorways
 - Bad North
+- The Tower Must Fall
+  - https://www.youtube.com/watch?v=WUGWSqg5I7o
+- Tiny Throne
+  - https://www.youtube.com/watch?v=aYz7mEPjJGA
+- The Little Land
+  - https://www.youtube.com/watch?v=Ju9uyaLT-hU
 - Frameless desktop idle "game"
   - Desktop Pet
   - Cozy Fisher
