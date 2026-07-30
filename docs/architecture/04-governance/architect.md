@@ -15,7 +15,7 @@ A software architect needs to **connect people**. They are the fast elevators in
 
 > [!QUOTE] Architects shouldn't aim to be the smartest in the room. Instead, they should aim to make _everyone else_ a bit smarter.
 
-See: [iSAQB - Rolle Architekt](isaqb.md#Rolle%20Architekt)
+See: [iSAQB - Rolle Architekt](../01-concepts/isaqb.md#Rolle%20Architekt)
 
 *Everything* in software architecture has a trade-off. Thinking like an architect is analyzing these trade-offs, then asking “which is more important?"
 

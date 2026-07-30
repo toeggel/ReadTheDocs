@@ -10,7 +10,7 @@ tags:
 The lightweight API is an approach to building APIs without complex architectural patterns. The lightweight API contains just the essential components needed to build an HTTP API, and to provide CRUD operations. The approach is used for prototyping, rapid application development, or microservices. “Lightweight” frameworks such as Node JS, Java Spring Boot, or Python Flask improve development efficiency even further. ASP.NET Core 6 now provides language constructs to create lightweight APIs as well (Minimal Api).
 
 * ✅ Reduces boilerplate to a minimum.
-    * No need to write code (classes, services, commands, ...) just to fulfil [architecture](architecture.md).
+    * No need to write code (classes, services, commands, ...) just to fulfil [architecture](../01-concepts/architecture.md).
 * ✅ Simple cases can be implemented simple. Complex cases are possible.
     * We don't have an architecture which is built around (few) complex cases and making therefore the simple cases difficult as well but rather build it around simple cases and keep the possibility to implement complex cases.
 * ✅ Easier testing 
