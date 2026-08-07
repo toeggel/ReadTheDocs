@@ -1,16 +1,25 @@
 # Beautiful Code
 
-> The ratio between reading code and writing code is roughly 10:1!    
+> The ratio between reading code and writing code is roughly 10:1!
 
-## Simplicity
+## Code Quality
 
-> Simplicity is the best way to measure code quality  
+> Software is measured by how easy it is to understand and change.
+
+Bad code bases are code bases that are difficult to understand and hard to change.
+Good code bases are easy to change. Good code bases are easy to test.
+
+### Simplicity
+
+> Simplicity is the best way to measure code quality
 
 Before introducing a new framework or library (which probably does some magic), ask yourself what problem this new tool solves, and whether we can change the problem so that we don't need the tool at all.
 
 > If you don’t actively fight for simplicity in software, complexity will win.
 > 
 > …and it will suck.
+
+> Complexity is anything related to the structure of a software system that makes it hard to understand and modify the system.
 
 ### Code Traversal  
 
